@@ -1,0 +1,4589 @@
+[
+ {
+  "code": "AD",
+  "name": {
+   "en": "Andorra",
+   "fr": "Andorre"
+  },
+  "aliases": [
+   "Principality of Andorra",
+   "Principauté d'Andorre",
+   "Principat d'Andorra"
+  ],
+  "capital": {
+   "en": "Andorra la Vella",
+   "fr": "Andorre-la-Vieille",
+   "lat": 42.5,
+   "lng": 1.5165
+  },
+  "view": {
+   "lat": 42.51,
+   "lng": 1.54,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "AE",
+  "name": {
+   "en": "United Arab Emirates",
+   "fr": "Émirats arabes unis"
+  },
+  "aliases": [
+   "UAE",
+   "Emirates",
+   "EAU"
+  ],
+  "capital": {
+   "en": "Abu Dhabi",
+   "fr": "Abou Dabi",
+   "lat": 24.4667,
+   "lng": 54.3666
+  },
+  "view": {
+   "lat": 23.91,
+   "lng": 54.3,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "AF",
+  "name": {
+   "en": "Afghanistan",
+   "fr": "Afghanistan"
+  },
+  "aliases": [
+   "Islamic Republic of Afghanistan",
+   "République islamique d'Afghanistan",
+   "Afġānistān"
+  ],
+  "capital": {
+   "en": "Kabul",
+   "fr": "Kaboul",
+   "lat": 34.5186,
+   "lng": 69.1813
+  },
+  "view": {
+   "lat": 33.83,
+   "lng": 65.93,
+   "altitude": 0.75
+  }
+ },
+ {
+  "code": "AG",
+  "name": {
+   "en": "Antigua and Barbuda",
+   "fr": "Antigua-et-Barbuda"
+  },
+  "aliases": [
+   "Antigua -et-Barbuda"
+  ],
+  "capital": {
+   "en": "Saint John's",
+   "fr": "Saint John's",
+   "lat": 17.118,
+   "lng": -61.85
+  },
+  "view": {
+   "lat": 17.07,
+   "lng": -61.8,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "AL",
+  "name": {
+   "en": "Albania",
+   "fr": "Albanie"
+  },
+  "aliases": [
+   "Republic of Albania",
+   "République d'Albanie",
+   "Shqipëri",
+   "Shqipëria",
+   "Shqipnia"
+  ],
+  "capital": {
+   "en": "Tirana",
+   "fr": "Tirana",
+   "lat": 41.3275,
+   "lng": 19.8189
+  },
+  "view": {
+   "lat": 41.17,
+   "lng": 20.05,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "AM",
+  "name": {
+   "en": "Armenia",
+   "fr": "Arménie"
+  },
+  "aliases": [
+   "Republic of Armenia",
+   "République d'Arménie",
+   "Hayastan",
+   "Հայաստանի Հանրապետություն"
+  ],
+  "capital": {
+   "en": "Yerevan",
+   "fr": "Erevan",
+   "lat": 40.1831,
+   "lng": 44.5116
+  },
+  "view": {
+   "lat": 40.3,
+   "lng": 44.94,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "AO",
+  "name": {
+   "en": "Angola",
+   "fr": "Angola"
+  },
+  "aliases": [
+   "Republic of Angola",
+   "République d'Angola",
+   "República de Angola",
+   "ʁɛpublika de an'ɡɔla"
+  ],
+  "capital": {
+   "en": "Luanda",
+   "fr": "Luanda",
+   "lat": -8.8363,
+   "lng": 13.2325
+  },
+  "view": {
+   "lat": -12.31,
+   "lng": 17.56,
+   "altitude": 1.05
+  }
+ },
+ {
+  "code": "AR",
+  "name": {
+   "en": "Argentina",
+   "fr": "Argentine"
+  },
+  "aliases": [
+   "Argentine Republic",
+   "République argentine",
+   "República Argentina"
+  ],
+  "capital": {
+   "en": "Buenos Aires",
+   "fr": "Buenos Aires",
+   "lat": -34.6006,
+   "lng": -58.3995
+  },
+  "view": {
+   "lat": -34.54,
+   "lng": -64.75,
+   "altitude": 1.56
+  }
+ },
+ {
+  "code": "AT",
+  "name": {
+   "en": "Austria",
+   "fr": "Autriche"
+  },
+  "aliases": [
+   "Republic of Austria",
+   "République d'Autriche",
+   "Osterreich",
+   "Oesterreich"
+  ],
+  "capital": {
+   "en": "Vienna",
+   "fr": "Vienne",
+   "lat": 48.202,
+   "lng": 16.3647
+  },
+  "view": {
+   "lat": 47.59,
+   "lng": 14.11,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "AU",
+  "name": {
+   "en": "Australia",
+   "fr": "Australie"
+  },
+  "aliases": [
+   "Commonwealth of Australia"
+  ],
+  "capital": {
+   "en": "Canberra",
+   "fr": "Canberra",
+   "lat": -35.283,
+   "lng": 149.129
+  },
+  "view": {
+   "lat": -25.63,
+   "lng": 134.21,
+   "altitude": 2.2
+  }
+ },
+ {
+  "code": "AZ",
+  "name": {
+   "en": "Azerbaijan",
+   "fr": "Azerbaïdjan"
+  },
+  "aliases": [
+   "Republic of Azerbaijan",
+   "République d'Azerbaïdjan",
+   "Azərbaycan Respublikası"
+  ],
+  "capital": {
+   "en": "Baku",
+   "fr": "Bakou",
+   "lat": 40.3972,
+   "lng": 49.8603
+  },
+  "view": {
+   "lat": 40.33,
+   "lng": 47.65,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BA",
+  "name": {
+   "en": "Bosnia and Herzegovina",
+   "fr": "Bosnie-Herzégovine"
+  },
+  "aliases": [
+   "Bosnie-et-Herzégovine",
+   "Bosnia-Herzegovina",
+   "Босна и Херцеговина"
+  ],
+  "capital": {
+   "en": "Sarajevo",
+   "fr": "Sarajevo",
+   "lat": 43.85,
+   "lng": 18.383
+  },
+  "view": {
+   "lat": 44.17,
+   "lng": 17.76,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BB",
+  "name": {
+   "en": "Barbados",
+   "fr": "Barbade"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Bridgetown",
+   "fr": "Bridgetown",
+   "lat": 13.102,
+   "lng": -59.6165
+  },
+  "view": {
+   "lat": 13.18,
+   "lng": -59.54,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BD",
+  "name": {
+   "en": "Bangladesh",
+   "fr": "Bangladesh"
+  },
+  "aliases": [
+   "People's Republic of Bangladesh",
+   "La République populaire du Bangladesh",
+   "Gônôprôjatôntri Bangladesh"
+  ],
+  "capital": {
+   "en": "Dhaka",
+   "fr": "Dacca",
+   "lat": 23.725,
+   "lng": 90.4066
+  },
+  "view": {
+   "lat": 23.87,
+   "lng": 90.21,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BE",
+  "name": {
+   "en": "Belgium",
+   "fr": "Belgique"
+  },
+  "aliases": [
+   "Kingdom of Belgium",
+   "Royaume de Belgique",
+   "België",
+   "Belgie",
+   "Belgien",
+   "Koninkrijk België",
+   "Königreich Belgien"
+  ],
+  "capital": {
+   "en": "Brussels",
+   "fr": "Bruxelles",
+   "lat": 50.8353,
+   "lng": 4.3314
+  },
+  "view": {
+   "lat": 50.65,
+   "lng": 4.66,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BF",
+  "name": {
+   "en": "Burkina Faso",
+   "fr": "Burkina Faso"
+  },
+  "aliases": [
+   "République du Burkina"
+  ],
+  "capital": {
+   "en": "Ouagadougou",
+   "fr": "Ouagadougou",
+   "lat": 12.3723,
+   "lng": -1.5267
+  },
+  "view": {
+   "lat": 12.27,
+   "lng": -1.78,
+   "altitude": 0.49
+  }
+ },
+ {
+  "code": "BG",
+  "name": {
+   "en": "Bulgaria",
+   "fr": "Bulgarie"
+  },
+  "aliases": [
+   "Republic of Bulgaria",
+   "République de Bulgarie",
+   "Република България"
+  ],
+  "capital": {
+   "en": "Sofia",
+   "fr": "Sofia",
+   "lat": 42.6853,
+   "lng": 23.3147
+  },
+  "view": {
+   "lat": 42.78,
+   "lng": 25.2,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BH",
+  "name": {
+   "en": "Bahrain",
+   "fr": "Bahreïn"
+  },
+  "aliases": [
+   "Kingdom of Bahrain",
+   "Royaume de Bahreïn",
+   "Mamlakat al-Baḥrayn"
+  ],
+  "capital": {
+   "en": "Manama",
+   "fr": "Manama",
+   "lat": 26.2361,
+   "lng": 50.5831
+  },
+  "view": {
+   "lat": 26.04,
+   "lng": 50.54,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BI",
+  "name": {
+   "en": "Burundi",
+   "fr": "Burundi"
+  },
+  "aliases": [
+   "Republic of Burundi",
+   "République du Burundi",
+   "Republika y'Uburundi"
+  ],
+  "capital": {
+   "en": "Gitega",
+   "fr": "Gitega",
+   "lat": -3.426,
+   "lng": 29.8436
+  },
+  "view": {
+   "lat": -3.37,
+   "lng": 29.88,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BJ",
+  "name": {
+   "en": "Benin",
+   "fr": "Bénin"
+  },
+  "aliases": [
+   "Republic of Benin",
+   "République du Bénin"
+  ],
+  "capital": {
+   "en": "Porto-Novo",
+   "fr": "Porto-Novo",
+   "lat": 6.4833,
+   "lng": 2.6166
+  },
+  "view": {
+   "lat": 9.63,
+   "lng": 2.33,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BN",
+  "name": {
+   "en": "Brunei",
+   "fr": "Brunei"
+  },
+  "aliases": [
+   "Nation of Brunei, Abode of Peace",
+   "État de Brunei Darussalam",
+   "Brunei Darussalam",
+   "Nation of Brunei",
+   "the Abode of Peace"
+  ],
+  "capital": {
+   "en": "Bandar Seri Begawan",
+   "fr": "Bandar Seri Begawan",
+   "lat": 4.8833,
+   "lng": 114.9333
+  },
+  "view": {
+   "lat": 4.45,
+   "lng": 114.54,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BO",
+  "name": {
+   "en": "Bolivia",
+   "fr": "Bolivie"
+  },
+  "aliases": [
+   "Plurinational State of Bolivia",
+   "État plurinational de Bolivie",
+   "Buliwya",
+   "Wuliwya",
+   "Bolivia, Plurinational State of",
+   "Estado Plurinacional de Bolivia",
+   "Buliwya Mamallaqta",
+   "Wuliwya Suyu",
+   "Tetã Volívia"
+  ],
+  "capital": {
+   "en": "Sucre",
+   "fr": "Sucre",
+   "lat": -19.041,
+   "lng": -65.2595
+  },
+  "view": {
+   "lat": -16.67,
+   "lng": -64.7,
+   "altitude": 0.98
+  }
+ },
+ {
+  "code": "BR",
+  "name": {
+   "en": "Brazil",
+   "fr": "Brésil"
+  },
+  "aliases": [
+   "Federative Republic of Brazil",
+   "République fédérative du Brésil",
+   "Brasil",
+   "República Federativa do Brasil"
+  ],
+  "capital": {
+   "en": "Brasília",
+   "fr": "Brasilia",
+   "lat": -15.7814,
+   "lng": -47.918
+  },
+  "view": {
+   "lat": -10.68,
+   "lng": -53.23,
+   "altitude": 2.2
+  }
+ },
+ {
+  "code": "BS",
+  "name": {
+   "en": "Bahamas",
+   "fr": "Bahamas"
+  },
+  "aliases": [
+   "Commonwealth of the Bahamas",
+   "Commonwealth des Bahamas"
+  ],
+  "capital": {
+   "en": "Nassau",
+   "fr": "Nassau",
+   "lat": 25.0834,
+   "lng": -77.35
+  },
+  "view": {
+   "lat": 24.72,
+   "lng": -78.03,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BT",
+  "name": {
+   "en": "Bhutan",
+   "fr": "Bhoutan"
+  },
+  "aliases": [
+   "Kingdom of Bhutan",
+   "Royaume du Bhoutan"
+  ],
+  "capital": {
+   "en": "Thimphu",
+   "fr": "Thimphou",
+   "lat": 27.473,
+   "lng": 89.639
+  },
+  "view": {
+   "lat": 27.41,
+   "lng": 90.42,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "BW",
+  "name": {
+   "en": "Botswana",
+   "fr": "Botswana"
+  },
+  "aliases": [
+   "Republic of Botswana",
+   "République du Botswana",
+   "Lefatshe la Botswana"
+  ],
+  "capital": {
+   "en": "Gaborone",
+   "fr": "Gaborone",
+   "lat": -24.6463,
+   "lng": 25.9119
+  },
+  "view": {
+   "lat": -22.17,
+   "lng": 23.81,
+   "altitude": 0.72
+  }
+ },
+ {
+  "code": "BY",
+  "name": {
+   "en": "Belarus",
+   "fr": "Biélorussie"
+  },
+  "aliases": [
+   "Republic of Belarus",
+   "République de Biélorussie",
+   "Bielaruś",
+   "Белоруссия",
+   "Республика Белоруссия"
+  ],
+  "capital": {
+   "en": "Minsk",
+   "fr": "Minsk",
+   "lat": 53.9019,
+   "lng": 27.5647
+  },
+  "view": {
+   "lat": 53.53,
+   "lng": 28.02,
+   "altitude": 0.43
+  }
+ },
+ {
+  "code": "BZ",
+  "name": {
+   "en": "Belize",
+   "fr": "Belize"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Belmopan",
+   "fr": "Belmopan",
+   "lat": 17.252,
+   "lng": -88.7671
+  },
+  "view": {
+   "lat": 17.17,
+   "lng": -88.72,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "CA",
+  "name": {
+   "en": "Canada",
+   "fr": "Canada"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Ottawa",
+   "fr": "Ottawa",
+   "lat": 45.4186,
+   "lng": -75.702
+  },
+  "view": {
+   "lat": 58.61,
+   "lng": -98.98,
+   "altitude": 2.2
+  }
+ },
+ {
+  "code": "CD",
+  "name": {
+   "en": "DR Congo",
+   "fr": "République démocratique du Congo"
+  },
+  "aliases": [
+   "Democratic Republic of the Congo",
+   "Congo (Rép. dém.)",
+   "Congo-Kinshasa",
+   "Congo, the Democratic Republic of the",
+   "Democratic Republic of Congo",
+   "DRC",
+   "RDC",
+   "Zaire",
+   "Zaïre"
+  ],
+  "capital": {
+   "en": "Kinshasa",
+   "fr": "Kinshasa",
+   "lat": -4.3278,
+   "lng": 15.313
+  },
+  "view": {
+   "lat": -2.87,
+   "lng": 23.64,
+   "altitude": 1.44
+  }
+ },
+ {
+  "code": "CF",
+  "name": {
+   "en": "Central African Republic",
+   "fr": "République centrafricaine"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Bangui",
+   "fr": "Bangui",
+   "lat": 4.3666,
+   "lng": 18.5583
+  },
+  "view": {
+   "lat": 6.57,
+   "lng": 20.48,
+   "altitude": 0.74
+  }
+ },
+ {
+  "code": "CG",
+  "name": {
+   "en": "Republic of the Congo",
+   "fr": "République du Congo"
+  },
+  "aliases": [
+   "Congo",
+   "Congo-Brazzaville"
+  ],
+  "capital": {
+   "en": "Brazzaville",
+   "fr": "Brazzaville",
+   "lat": -4.2572,
+   "lng": 15.2827
+  },
+  "view": {
+   "lat": -0.86,
+   "lng": 15.21,
+   "altitude": 0.56
+  }
+ },
+ {
+  "code": "CH",
+  "name": {
+   "en": "Switzerland",
+   "fr": "Suisse"
+  },
+  "aliases": [
+   "Swiss Confederation",
+   "Confédération suisse",
+   "Schweiz",
+   "Svizzera",
+   "Svizra"
+  ],
+  "capital": {
+   "en": "Bern",
+   "fr": "Berne",
+   "lat": 46.9167,
+   "lng": 7.467
+  },
+  "view": {
+   "lat": 46.81,
+   "lng": 8.24,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "CI",
+  "name": {
+   "en": "Ivory Coast",
+   "fr": "Côte d'Ivoire"
+  },
+  "aliases": [
+   "Republic of Côte d'Ivoire",
+   "République de Côte d' Ivoire",
+   "Cote d'Ivoire",
+   "République de Côte d'Ivoire"
+  ],
+  "capital": {
+   "en": "Yamoussoukro",
+   "fr": "Yamoussoukro",
+   "lat": 6.8184,
+   "lng": -5.2755
+  },
+  "view": {
+   "lat": 7.62,
+   "lng": -5.56,
+   "altitude": 0.53
+  }
+ },
+ {
+  "code": "CL",
+  "name": {
+   "en": "Chile",
+   "fr": "Chili"
+  },
+  "aliases": [
+   "Republic of Chile",
+   "République du Chili",
+   "República de Chile"
+  ],
+  "capital": {
+   "en": "Santiago",
+   "fr": "Santiago",
+   "lat": -33.4481,
+   "lng": -70.669
+  },
+  "view": {
+   "lat": -34.54,
+   "lng": -70.97,
+   "altitude": 0.77
+  }
+ },
+ {
+  "code": "CM",
+  "name": {
+   "en": "Cameroon",
+   "fr": "Cameroun"
+  },
+  "aliases": [
+   "Republic of Cameroon",
+   "République du Cameroun"
+  ],
+  "capital": {
+   "en": "Yaoundé",
+   "fr": "Yaoundé",
+   "lat": 3.8686,
+   "lng": 11.5147
+  },
+  "view": {
+   "lat": 5.68,
+   "lng": 12.74,
+   "altitude": 0.65
+  }
+ },
+ {
+  "code": "CN",
+  "name": {
+   "en": "China",
+   "fr": "Chine"
+  },
+  "aliases": [
+   "People's Republic of China",
+   "République populaire de Chine",
+   "Zhōngguó",
+   "Zhongguo",
+   "Zhonghua",
+   "中华人民共和国",
+   "Zhōnghuá Rénmín Gònghéguó"
+  ],
+  "capital": {
+   "en": "Beijing",
+   "fr": "Pékin",
+   "lat": 39.9308,
+   "lng": 116.3863
+  },
+  "view": {
+   "lat": 36.75,
+   "lng": 103.35,
+   "altitude": 2.2
+  }
+ },
+ {
+  "code": "CO",
+  "name": {
+   "en": "Colombia",
+   "fr": "Colombie"
+  },
+  "aliases": [
+   "Republic of Colombia",
+   "République de Colombie",
+   "República de Colombia"
+  ],
+  "capital": {
+   "en": "Bogotá",
+   "fr": "Bogota",
+   "lat": 4.5984,
+   "lng": -74.0853
+  },
+  "view": {
+   "lat": 3.91,
+   "lng": -73.07,
+   "altitude": 1
+  }
+ },
+ {
+  "code": "CR",
+  "name": {
+   "en": "Costa Rica",
+   "fr": "Costa Rica"
+  },
+  "aliases": [
+   "Republic of Costa Rica",
+   "République du Costa Rica",
+   "República de Costa Rica"
+  ],
+  "capital": {
+   "en": "San José",
+   "fr": "San José",
+   "lat": 9.937,
+   "lng": -84.086
+  },
+  "view": {
+   "lat": 10,
+   "lng": -84.22,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "CU",
+  "name": {
+   "en": "Cuba",
+   "fr": "Cuba"
+  },
+  "aliases": [
+   "Republic of Cuba",
+   "République de Cuba",
+   "República de Cuba"
+  ],
+  "capital": {
+   "en": "Havana",
+   "fr": "La Havane",
+   "lat": 23.1339,
+   "lng": -82.3661
+  },
+  "view": {
+   "lat": 21.64,
+   "lng": -78.87,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "CV",
+  "name": {
+   "en": "Cape Verde",
+   "fr": "Cap-Vert"
+  },
+  "aliases": [
+   "Republic of Cabo Verde",
+   "République du Cap-Vert",
+   "Îles du Cap-Vert",
+   "República de Cabo Verde"
+  ],
+  "capital": {
+   "en": "Praia",
+   "fr": "Praia",
+   "lat": 14.9167,
+   "lng": -23.5167
+  },
+  "view": {
+   "lat": 17.08,
+   "lng": -25.15,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "CY",
+  "name": {
+   "en": "Cyprus",
+   "fr": "Chypre"
+  },
+  "aliases": [
+   "Republic of Cyprus",
+   "République de Chypre",
+   "Kýpros",
+   "Kıbrıs",
+   "Κυπριακή Δημοκρατία",
+   "Kıbrıs Cumhuriyeti"
+  ],
+  "capital": {
+   "en": "Nicosia",
+   "fr": "Nicosie",
+   "lat": 35.1667,
+   "lng": 33.3666
+  },
+  "view": {
+   "lat": 35.01,
+   "lng": 33.14,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "CZ",
+  "name": {
+   "en": "Czechia",
+   "fr": "Tchéquie"
+  },
+  "aliases": [
+   "Czech Republic",
+   "République tchèque",
+   "Česká republika",
+   "Česko"
+  ],
+  "capital": {
+   "en": "Prague",
+   "fr": "Prague",
+   "lat": 50.0853,
+   "lng": 14.464
+  },
+  "view": {
+   "lat": 49.71,
+   "lng": 15.31,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "DE",
+  "name": {
+   "en": "Germany",
+   "fr": "Allemagne"
+  },
+  "aliases": [
+   "Federal Republic of Germany",
+   "République fédérale d'Allemagne",
+   "Bundesrepublik Deutschland"
+  ],
+  "capital": {
+   "en": "Berlin",
+   "fr": "Berlin",
+   "lat": 52.5238,
+   "lng": 13.3996
+  },
+  "view": {
+   "lat": 51.04,
+   "lng": 10.36,
+   "altitude": 0.56
+  }
+ },
+ {
+  "code": "DJ",
+  "name": {
+   "en": "Djibouti",
+   "fr": "Djibouti"
+  },
+  "aliases": [
+   "Republic of Djibouti",
+   "République de Djibouti",
+   "Jabuuti",
+   "Gabuuti",
+   "Gabuutih Ummuuno",
+   "Jamhuuriyadda Jabuuti"
+  ],
+  "capital": {
+   "en": "Djibouti",
+   "fr": "Djibouti",
+   "lat": 11.595,
+   "lng": 43.148
+  },
+  "view": {
+   "lat": 11.74,
+   "lng": 42.57,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "DK",
+  "name": {
+   "en": "Denmark",
+   "fr": "Danemark"
+  },
+  "aliases": [
+   "Kingdom of Denmark",
+   "Royaume du Danemark",
+   "Danmark",
+   "Kongeriget Danmark"
+  ],
+  "capital": {
+   "en": "Copenhagen",
+   "fr": "Copenhague",
+   "lat": 55.6805,
+   "lng": 12.5615
+  },
+  "view": {
+   "lat": 56.22,
+   "lng": 9.27,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "DM",
+  "name": {
+   "en": "Dominica",
+   "fr": "Dominique"
+  },
+  "aliases": [
+   "Commonwealth of Dominica",
+   "Commonwealth de la Dominique",
+   "Wai‘tu kubuli"
+  ],
+  "capital": {
+   "en": "Roseau",
+   "fr": "Roseau",
+   "lat": 15.301,
+   "lng": -61.387
+  },
+  "view": {
+   "lat": 15.45,
+   "lng": -61.36,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "DO",
+  "name": {
+   "en": "Dominican Republic",
+   "fr": "République dominicaine"
+  },
+  "aliases": [
+   "République Dominicaine"
+  ],
+  "capital": {
+   "en": "Santo Domingo",
+   "fr": "Saint-Domingue",
+   "lat": 18.472,
+   "lng": -69.902
+  },
+  "view": {
+   "lat": 18.9,
+   "lng": -70.49,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "DZ",
+  "name": {
+   "en": "Algeria",
+   "fr": "Algérie"
+  },
+  "aliases": [
+   "People's Democratic Republic of Algeria",
+   "République démocratique et populaire d'Algérie",
+   "Dzayer"
+  ],
+  "capital": {
+   "en": "Algiers",
+   "fr": "Alger",
+   "lat": 36.765,
+   "lng": 3.0486
+  },
+  "view": {
+   "lat": 28.06,
+   "lng": 2.63,
+   "altitude": 1.44
+  }
+ },
+ {
+  "code": "EC",
+  "name": {
+   "en": "Ecuador",
+   "fr": "Équateur"
+  },
+  "aliases": [
+   "Republic of Ecuador",
+   "République de l'Équateur",
+   "República del Ecuador"
+  ],
+  "capital": {
+   "en": "Quito",
+   "fr": "Quito",
+   "lat": -0.213,
+   "lng": -78.502
+  },
+  "view": {
+   "lat": -1.43,
+   "lng": -78.39,
+   "altitude": 0.47
+  }
+ },
+ {
+  "code": "EE",
+  "name": {
+   "en": "Estonia",
+   "fr": "Estonie"
+  },
+  "aliases": [
+   "Republic of Estonia",
+   "République d'Estonie",
+   "Eesti",
+   "Eesti Vabariik"
+  ],
+  "capital": {
+   "en": "Tallinn",
+   "fr": "Tallinn",
+   "lat": 59.4339,
+   "lng": 24.728
+  },
+  "view": {
+   "lat": 58.68,
+   "lng": 25.83,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "EG",
+  "name": {
+   "en": "Egypt",
+   "fr": "Égypte"
+  },
+  "aliases": [
+   "Arab Republic of Egypt",
+   "République arabe d'Égypte"
+  ],
+  "capital": {
+   "en": "Cairo",
+   "fr": "Le Caire",
+   "lat": 30.0519,
+   "lng": 31.248
+  },
+  "view": {
+   "lat": 26.46,
+   "lng": 29.88,
+   "altitude": 0.94
+  }
+ },
+ {
+  "code": "ER",
+  "name": {
+   "en": "Eritrea",
+   "fr": "Érythrée"
+  },
+  "aliases": [
+   "State of Eritrea",
+   "État d'Érythrée",
+   "ሃገረ ኤርትራ",
+   "Dawlat Iritriyá",
+   "ʾErtrā",
+   "Iritriyā"
+  ],
+  "capital": {
+   "en": "Asmara",
+   "fr": "Asmara",
+   "lat": 15.3333,
+   "lng": 38.9333
+  },
+  "view": {
+   "lat": 15.36,
+   "lng": 38.85,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "ES",
+  "name": {
+   "en": "Spain",
+   "fr": "Espagne"
+  },
+  "aliases": [
+   "Kingdom of Spain",
+   "Royaume d'Espagne",
+   "Reino de España"
+  ],
+  "capital": {
+   "en": "Madrid",
+   "fr": "Madrid",
+   "lat": 40.402,
+   "lng": -3.6853
+  },
+  "view": {
+   "lat": 40.36,
+   "lng": -3.58,
+   "altitude": 0.66
+  }
+ },
+ {
+  "code": "ET",
+  "name": {
+   "en": "Ethiopia",
+   "fr": "Éthiopie"
+  },
+  "aliases": [
+   "Federal Democratic Republic of Ethiopia",
+   "République fédérale démocratique d'Éthiopie",
+   "ʾĪtyōṗṗyā",
+   "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"
+  ],
+  "capital": {
+   "en": "Addis Ababa",
+   "fr": "Addis-Abeba",
+   "lat": 9.0353,
+   "lng": 38.6981
+  },
+  "view": {
+   "lat": 8.62,
+   "lng": 39.61,
+   "altitude": 1
+  }
+ },
+ {
+  "code": "FI",
+  "name": {
+   "en": "Finland",
+   "fr": "Finlande"
+  },
+  "aliases": [
+   "Republic of Finland",
+   "République de Finlande",
+   "Suomi",
+   "Suomen tasavalta",
+   "Republiken Finland"
+  ],
+  "capital": {
+   "en": "Helsinki",
+   "fr": "Helsinki",
+   "lat": 60.1775,
+   "lng": 24.9322
+  },
+  "view": {
+   "lat": 64.28,
+   "lng": 26.21,
+   "altitude": 0.54
+  }
+ },
+ {
+  "code": "FJ",
+  "name": {
+   "en": "Fiji",
+   "fr": "Fidji"
+  },
+  "aliases": [
+   "Republic of Fiji",
+   "République des Fidji",
+   "Viti",
+   "Matanitu ko Viti",
+   "Fijī Gaṇarājya"
+  ],
+  "capital": {
+   "en": "Suva",
+   "fr": "Suva",
+   "lat": -18.133,
+   "lng": 178.4417
+  },
+  "view": {
+   "lat": -17.83,
+   "lng": 177.98,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "FM",
+  "name": {
+   "en": "Micronesia",
+   "fr": "Micronésie"
+  },
+  "aliases": [
+   "Federated States of Micronesia",
+   "États fédérés de Micronésie",
+   "Micronesia, Federated States of"
+  ],
+  "capital": {
+   "en": "Palikir",
+   "fr": "Palikir",
+   "lat": 6.9166,
+   "lng": 158.15
+  },
+  "view": {
+   "lat": 6.88,
+   "lng": 158.23,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "FR",
+  "name": {
+   "en": "France",
+   "fr": "France"
+  },
+  "aliases": [
+   "French Republic",
+   "République française"
+  ],
+  "capital": {
+   "en": "Paris",
+   "fr": "Paris",
+   "lat": 48.8686,
+   "lng": 2.3314
+  },
+  "view": {
+   "lat": 46.56,
+   "lng": 2.47,
+   "altitude": 0.69
+  }
+ },
+ {
+  "code": "GA",
+  "name": {
+   "en": "Gabon",
+   "fr": "Gabon"
+  },
+  "aliases": [
+   "Gabonese Republic",
+   "République gabonaise",
+   "République Gabonaise"
+  ],
+  "capital": {
+   "en": "Libreville",
+   "fr": "Libreville",
+   "lat": 0.3854,
+   "lng": 9.458
+  },
+  "view": {
+   "lat": -0.58,
+   "lng": 11.77,
+   "altitude": 0.48
+  }
+ },
+ {
+  "code": "GB",
+  "name": {
+   "en": "United Kingdom",
+   "fr": "Royaume-Uni"
+  },
+  "aliases": [
+   "United Kingdom of Great Britain and Northern Ireland",
+   "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord",
+   "Great Britain",
+   "UK",
+   "Britain",
+   "England",
+   "Angleterre",
+   "Grande-Bretagne"
+  ],
+  "capital": {
+   "en": "London",
+   "fr": "Londres",
+   "lat": 51.5019,
+   "lng": -0.1187
+  },
+  "view": {
+   "lat": 53.88,
+   "lng": -2.39,
+   "altitude": 0.44
+  }
+ },
+ {
+  "code": "GD",
+  "name": {
+   "en": "Grenada",
+   "fr": "Grenade"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "St. George's",
+   "fr": "Saint-Georges",
+   "lat": 12.0526,
+   "lng": -61.7416
+  },
+  "view": {
+   "lat": 12.12,
+   "lng": -61.67,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GE",
+  "name": {
+   "en": "Georgia",
+   "fr": "Géorgie"
+  },
+  "aliases": [
+   "République de Géorgie",
+   "Sakartvelo"
+  ],
+  "capital": {
+   "en": "Tbilisi",
+   "fr": "Tbilissi",
+   "lat": 41.727,
+   "lng": 44.7888
+  },
+  "view": {
+   "lat": 42.16,
+   "lng": 43.55,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GH",
+  "name": {
+   "en": "Ghana",
+   "fr": "Ghana"
+  },
+  "aliases": [
+   "Republic of Ghana",
+   "République du Ghana"
+  ],
+  "capital": {
+   "en": "Accra",
+   "fr": "Accra",
+   "lat": 5.552,
+   "lng": -0.2187
+  },
+  "view": {
+   "lat": 7.93,
+   "lng": -1.22,
+   "altitude": 0.46
+  }
+ },
+ {
+  "code": "GM",
+  "name": {
+   "en": "Gambia",
+   "fr": "Gambie"
+  },
+  "aliases": [
+   "Republic of the Gambia",
+   "République de Gambie"
+  ],
+  "capital": {
+   "en": "Banjul",
+   "fr": "Banjul",
+   "lat": 13.4539,
+   "lng": -16.5917
+  },
+  "view": {
+   "lat": 13.37,
+   "lng": -16.21,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GN",
+  "name": {
+   "en": "Guinea",
+   "fr": "Guinée"
+  },
+  "aliases": [
+   "Republic of Guinea",
+   "République de Guinée"
+  ],
+  "capital": {
+   "en": "Conakry",
+   "fr": "Conakry",
+   "lat": 9.5335,
+   "lng": -13.6822
+  },
+  "view": {
+   "lat": 10.44,
+   "lng": -10.92,
+   "altitude": 0.47
+  }
+ },
+ {
+  "code": "GQ",
+  "name": {
+   "en": "Equatorial Guinea",
+   "fr": "Guinée équatoriale"
+  },
+  "aliases": [
+   "Republic of Equatorial Guinea",
+   "République de Guinée équatoriale",
+   "República de Guinea Ecuatorial",
+   "República da Guiné Equatorial"
+  ],
+  "capital": {
+   "en": "Malabo",
+   "fr": "Malabo",
+   "lat": 3.75,
+   "lng": 8.7833
+  },
+  "view": {
+   "lat": 1.57,
+   "lng": 10.48,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GR",
+  "name": {
+   "en": "Greece",
+   "fr": "Grèce"
+  },
+  "aliases": [
+   "Hellenic Republic",
+   "République hellénique",
+   "Elláda",
+   "Ελληνική Δημοκρατία"
+  ],
+  "capital": {
+   "en": "Athens",
+   "fr": "Athènes",
+   "lat": 37.9853,
+   "lng": 23.7314
+  },
+  "view": {
+   "lat": 39.5,
+   "lng": 22.51,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GT",
+  "name": {
+   "en": "Guatemala",
+   "fr": "Guatemala"
+  },
+  "aliases": [
+   "Republic of Guatemala",
+   "République du Guatemala"
+  ],
+  "capital": {
+   "en": "Guatemala City",
+   "fr": "Guatemala-Ville",
+   "lat": 14.6231,
+   "lng": -90.5289
+  },
+  "view": {
+   "lat": 15.69,
+   "lng": -90.37,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GW",
+  "name": {
+   "en": "Guinea-Bissau",
+   "fr": "Guinée-Bissau"
+  },
+  "aliases": [
+   "Republic of Guinea-Bissau",
+   "République de Guinée-Bissau",
+   "República da Guiné-Bissau"
+  ],
+  "capital": {
+   "en": "Bissau",
+   "fr": "Bissau",
+   "lat": 11.865,
+   "lng": -15.5984
+  },
+  "view": {
+   "lat": 12.05,
+   "lng": -14.94,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "GY",
+  "name": {
+   "en": "Guyana",
+   "fr": "Guyana"
+  },
+  "aliases": [
+   "Co-operative Republic of Guyana",
+   "République coopérative de Guyana"
+  ],
+  "capital": {
+   "en": "Georgetown",
+   "fr": "Georgetown",
+   "lat": 6.802,
+   "lng": -58.167
+  },
+  "view": {
+   "lat": 4.8,
+   "lng": -58.98,
+   "altitude": 0.43
+  }
+ },
+ {
+  "code": "HN",
+  "name": {
+   "en": "Honduras",
+   "fr": "Honduras"
+  },
+  "aliases": [
+   "Republic of Honduras",
+   "République du Honduras",
+   "República de Honduras"
+  ],
+  "capital": {
+   "en": "Tegucigalpa",
+   "fr": "Tegucigalpa",
+   "lat": 14.104,
+   "lng": -87.2195
+  },
+  "view": {
+   "lat": 14.82,
+   "lng": -86.61,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "HR",
+  "name": {
+   "en": "Croatia",
+   "fr": "Croatie"
+  },
+  "aliases": [
+   "Republic of Croatia",
+   "République de Croatie",
+   "Hrvatska",
+   "Republika Hrvatska"
+  ],
+  "capital": {
+   "en": "Zagreb",
+   "fr": "Zagreb",
+   "lat": 45.8,
+   "lng": 16
+  },
+  "view": {
+   "lat": 45.17,
+   "lng": 16.46,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "HT",
+  "name": {
+   "en": "Haiti",
+   "fr": "Haïti"
+  },
+  "aliases": [
+   "Republic of Haiti",
+   "République d'Haïti",
+   "Repiblik Ayiti"
+  ],
+  "capital": {
+   "en": "Port-au-Prince",
+   "fr": "Port-au-Prince",
+   "lat": 18.543,
+   "lng": -72.338
+  },
+  "view": {
+   "lat": 18.88,
+   "lng": -72.62,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "HU",
+  "name": {
+   "en": "Hungary",
+   "fr": "Hongrie"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Budapest",
+   "fr": "Budapest",
+   "lat": 47.502,
+   "lng": 19.0814
+  },
+  "view": {
+   "lat": 47.17,
+   "lng": 19.38,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "ID",
+  "name": {
+   "en": "Indonesia",
+   "fr": "Indonésie"
+  },
+  "aliases": [
+   "Republic of Indonesia",
+   "République d'Indonésie",
+   "Republik Indonesia"
+  ],
+  "capital": {
+   "en": "Jakarta",
+   "fr": "Jakarta",
+   "lat": -6.1725,
+   "lng": 106.8275
+  },
+  "view": {
+   "lat": -0.19,
+   "lng": 114.03,
+   "altitude": 0.69
+  }
+ },
+ {
+  "code": "IE",
+  "name": {
+   "en": "Ireland",
+   "fr": "Irlande"
+  },
+  "aliases": [
+   "Republic of Ireland",
+   "République d'Irlande",
+   "Éire",
+   "Poblacht na hÉireann"
+  ],
+  "capital": {
+   "en": "Dublin",
+   "fr": "Dublin",
+   "lat": 53.335,
+   "lng": -6.2509
+  },
+  "view": {
+   "lat": 53.22,
+   "lng": -8.12,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "IL",
+  "name": {
+   "en": "Israel",
+   "fr": "Israël"
+  },
+  "aliases": [
+   "State of Israel",
+   "État d'Israël",
+   "Medīnat Yisrā'el"
+  ],
+  "capital": {
+   "en": "Jerusalem",
+   "fr": "Jérusalem",
+   "lat": 31.7784,
+   "lng": 35.2066
+  },
+  "view": {
+   "lat": 31.43,
+   "lng": 34.99,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "IN",
+  "name": {
+   "en": "India",
+   "fr": "Inde"
+  },
+  "aliases": [
+   "Republic of India",
+   "République de l'Inde",
+   "Bhārat",
+   "Bharat Ganrajya",
+   "இந்தியா"
+  ],
+  "capital": {
+   "en": "New Delhi",
+   "fr": "New Delhi",
+   "lat": 28.6,
+   "lng": 77.2
+  },
+  "view": {
+   "lat": 22.8,
+   "lng": 79.55,
+   "altitude": 1.67
+  }
+ },
+ {
+  "code": "IQ",
+  "name": {
+   "en": "Iraq",
+   "fr": "Irak"
+  },
+  "aliases": [
+   "Republic of Iraq",
+   "République d'Irak",
+   "Jumhūriyyat al-‘Irāq"
+  ],
+  "capital": {
+   "en": "Baghdad",
+   "fr": "Bagdad",
+   "lat": 33.3406,
+   "lng": 44.3919
+  },
+  "view": {
+   "lat": 33.01,
+   "lng": 43.77,
+   "altitude": 0.62
+  }
+ },
+ {
+  "code": "IR",
+  "name": {
+   "en": "Iran",
+   "fr": "Iran"
+  },
+  "aliases": [
+   "Islamic Republic of Iran",
+   "République islamique d'Iran",
+   "Iran, Islamic Republic of",
+   "Jomhuri-ye Eslāmi-ye Irān"
+  ],
+  "capital": {
+   "en": "Tehran",
+   "fr": "Téhéran",
+   "lat": 35.6739,
+   "lng": 51.4224
+  },
+  "view": {
+   "lat": 32.53,
+   "lng": 54.42,
+   "altitude": 1.2
+  }
+ },
+ {
+  "code": "IS",
+  "name": {
+   "en": "Iceland",
+   "fr": "Islande"
+  },
+  "aliases": [
+   "République d'Islande",
+   "Island",
+   "Republic of Iceland",
+   "Lýðveldið Ísland"
+  ],
+  "capital": {
+   "en": "Reykjavík",
+   "fr": "Reykjavik",
+   "lat": 64.15,
+   "lng": -21.95
+  },
+  "view": {
+   "lat": 65.03,
+   "lng": -18.51,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "IT",
+  "name": {
+   "en": "Italy",
+   "fr": "Italie"
+  },
+  "aliases": [
+   "Italian Republic",
+   "République italienne",
+   "Repubblica italiana"
+  ],
+  "capital": {
+   "en": "Rome",
+   "fr": "Rome",
+   "lat": 41.8979,
+   "lng": 12.4813
+  },
+  "view": {
+   "lat": 43.48,
+   "lng": 12.31,
+   "altitude": 0.47
+  }
+ },
+ {
+  "code": "JM",
+  "name": {
+   "en": "Jamaica",
+   "fr": "Jamaïque"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Kingston",
+   "fr": "Kingston",
+   "lat": 17.9771,
+   "lng": -76.7674
+  },
+  "view": {
+   "lat": 18.17,
+   "lng": -77.33,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "JO",
+  "name": {
+   "en": "Jordan",
+   "fr": "Jordanie"
+  },
+  "aliases": [
+   "Hashemite Kingdom of Jordan",
+   "Royaume hachémite de Jordanie",
+   "al-Mamlakah al-Urdunīyah al-Hāshimīyah"
+  ],
+  "capital": {
+   "en": "Amman",
+   "fr": "Amman",
+   "lat": 31.952,
+   "lng": 35.9314
+  },
+  "view": {
+   "lat": 31.23,
+   "lng": 36.75,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "JP",
+  "name": {
+   "en": "Japan",
+   "fr": "Japon"
+  },
+  "aliases": [
+   "Nippon",
+   "Nihon"
+  ],
+  "capital": {
+   "en": "Tokyo",
+   "fr": "Tokyo",
+   "lat": 35.687,
+   "lng": 139.7495
+  },
+  "view": {
+   "lat": 36.58,
+   "lng": 137.87,
+   "altitude": 0.45
+  }
+ },
+ {
+  "code": "KE",
+  "name": {
+   "en": "Kenya",
+   "fr": "Kenya"
+  },
+  "aliases": [
+   "Republic of Kenya",
+   "République du Kenya",
+   "Jamhuri ya Kenya"
+  ],
+  "capital": {
+   "en": "Nairobi",
+   "fr": "Nairobi",
+   "lat": -1.2814,
+   "lng": 36.8147
+  },
+  "view": {
+   "lat": 0.6,
+   "lng": 37.79,
+   "altitude": 0.73
+  }
+ },
+ {
+  "code": "KG",
+  "name": {
+   "en": "Kyrgyzstan",
+   "fr": "Kirghizistan"
+  },
+  "aliases": [
+   "Kyrgyz Republic",
+   "République kirghize",
+   "Киргизия",
+   "Кыргыз Республикасы",
+   "Kyrgyz Respublikasy"
+  ],
+  "capital": {
+   "en": "Bishkek",
+   "fr": "Bichkek",
+   "lat": 42.875,
+   "lng": 74.5833
+  },
+  "view": {
+   "lat": 41.49,
+   "lng": 74.52,
+   "altitude": 0.42
+  }
+ },
+ {
+  "code": "KH",
+  "name": {
+   "en": "Cambodia",
+   "fr": "Cambodge"
+  },
+  "aliases": [
+   "Kingdom of Cambodia",
+   "Royaume du Cambodge"
+  ],
+  "capital": {
+   "en": "Phnom Penh",
+   "fr": "Phnom Penh",
+   "lat": 11.552,
+   "lng": 104.9147
+  },
+  "view": {
+   "lat": 12.73,
+   "lng": 104.92,
+   "altitude": 0.4
+  }
+ },
+ {
+  "code": "KI",
+  "name": {
+   "en": "Kiribati",
+   "fr": "Kiribati"
+  },
+  "aliases": [
+   "Independent and Sovereign Republic of Kiribati",
+   "République de Kiribati",
+   "Republic of Kiribati",
+   "Ribaberiki Kiribati"
+  ],
+  "capital": {
+   "en": "South Tarawa",
+   "fr": "Tarawa-Sud",
+   "lat": 1.3382,
+   "lng": 173.0176
+  },
+  "view": {
+   "lat": 1.79,
+   "lng": -157.34,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "KM",
+  "name": {
+   "en": "Comoros",
+   "fr": "Comores"
+  },
+  "aliases": [
+   "Union of the Comoros",
+   "Union des Comores",
+   "Udzima wa Komori",
+   "al-Ittiḥād al-Qumurī"
+  ],
+  "capital": {
+   "en": "Moroni",
+   "fr": "Moroni",
+   "lat": -11.7042,
+   "lng": 43.2402
+  },
+  "view": {
+   "lat": -11.76,
+   "lng": 43.36,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "KN",
+  "name": {
+   "en": "Saint Kitts and Nevis",
+   "fr": "Saint-Christophe-et-Niévès"
+  },
+  "aliases": [
+   "Federation of Saint Christopher and Nevis",
+   "Fédération de Saint-Christophe-et-Niévès"
+  ],
+  "capital": {
+   "en": "Basseterre",
+   "fr": "Basseterre",
+   "lat": 17.302,
+   "lng": -62.717
+  },
+  "view": {
+   "lat": 17.33,
+   "lng": -62.75,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "KP",
+  "name": {
+   "en": "North Korea",
+   "fr": "Corée du Nord"
+  },
+  "aliases": [
+   "Democratic People's Republic of Korea",
+   "République populaire démocratique de Corée",
+   "DPRK",
+   "조선민주주의인민공화국",
+   "Chosŏn Minjujuŭi Inmin Konghwaguk",
+   "Korea, Democratic People's Republic of",
+   "북조선"
+  ],
+  "capital": {
+   "en": "Pyongyang",
+   "fr": "Pyongyang",
+   "lat": 39.0214,
+   "lng": 125.7527
+  },
+  "view": {
+   "lat": 40.13,
+   "lng": 127.18,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "KR",
+  "name": {
+   "en": "South Korea",
+   "fr": "Corée du Sud"
+  },
+  "aliases": [
+   "Republic of Korea",
+   "République de Corée",
+   "Korea, Republic of",
+   "남조선",
+   "Korea",
+   "Corée"
+  ],
+  "capital": {
+   "en": "Seoul",
+   "fr": "Séoul",
+   "lat": 37.5683,
+   "lng": 126.9978
+  },
+  "view": {
+   "lat": 36.47,
+   "lng": 127.87,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "KW",
+  "name": {
+   "en": "Kuwait",
+   "fr": "Koweït"
+  },
+  "aliases": [
+   "State of Kuwait",
+   "État du Koweït",
+   "Dawlat al-Kuwait"
+  ],
+  "capital": {
+   "en": "Kuwait City",
+   "fr": "Koweït",
+   "lat": 29.3717,
+   "lng": 47.9764
+  },
+  "view": {
+   "lat": 29.31,
+   "lng": 47.56,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "KZ",
+  "name": {
+   "en": "Kazakhstan",
+   "fr": "Kazakhstan"
+  },
+  "aliases": [
+   "Republic of Kazakhstan",
+   "République du Kazakhstan",
+   "Qazaqstan",
+   "Казахстан",
+   "Қазақстан Республикасы",
+   "Qazaqstan Respublïkası",
+   "Республика Казахстан",
+   "Respublika Kazakhstan"
+  ],
+  "capital": {
+   "en": "Astana",
+   "fr": "Astana",
+   "lat": 51.1811,
+   "lng": 71.4278
+  },
+  "view": {
+   "lat": 48.36,
+   "lng": 67.24,
+   "altitude": 1.55
+  }
+ },
+ {
+  "code": "LA",
+  "name": {
+   "en": "Laos",
+   "fr": "Laos"
+  },
+  "aliases": [
+   "Lao People's Democratic Republic",
+   "République démocratique populaire lao",
+   "Lao",
+   "Sathalanalat Paxathipatai Paxaxon Lao"
+  ],
+  "capital": {
+   "en": "Vientiane",
+   "fr": "Vientiane",
+   "lat": 17.9667,
+   "lng": 102.6
+  },
+  "view": {
+   "lat": 18.52,
+   "lng": 103.75,
+   "altitude": 0.45
+  }
+ },
+ {
+  "code": "LB",
+  "name": {
+   "en": "Lebanon",
+   "fr": "Liban"
+  },
+  "aliases": [
+   "Lebanese Republic",
+   "République libanaise",
+   "Al-Jumhūrīyah Al-Libnānīyah"
+  ],
+  "capital": {
+   "en": "Beirut",
+   "fr": "Beyrouth",
+   "lat": 33.8739,
+   "lng": 35.5078
+  },
+  "view": {
+   "lat": 33.91,
+   "lng": 35.88,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LC",
+  "name": {
+   "en": "Saint Lucia",
+   "fr": "Sainte-Lucie"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Castries",
+   "fr": "Castries",
+   "lat": 14.002,
+   "lng": -61
+  },
+  "view": {
+   "lat": 13.92,
+   "lng": -60.95,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LI",
+  "name": {
+   "en": "Liechtenstein",
+   "fr": "Liechtenstein"
+  },
+  "aliases": [
+   "Principality of Liechtenstein",
+   "Principauté du Liechtenstein",
+   "Fürstentum Liechtenstein"
+  ],
+  "capital": {
+   "en": "Vaduz",
+   "fr": "Vaduz",
+   "lat": 47.1337,
+   "lng": 9.5167
+  },
+  "view": {
+   "lat": 47.13,
+   "lng": 9.53,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LK",
+  "name": {
+   "en": "Sri Lanka",
+   "fr": "Sri Lanka"
+  },
+  "aliases": [
+   "Democratic Socialist Republic of Sri Lanka",
+   "République démocratique socialiste du Sri Lanka",
+   "ilaṅkai"
+  ],
+  "capital": {
+   "en": "Colombo",
+   "fr": "Colombo",
+   "lat": 6.932,
+   "lng": 79.8578
+  },
+  "view": {
+   "lat": 7.65,
+   "lng": 80.7,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LR",
+  "name": {
+   "en": "Liberia",
+   "fr": "Liberia"
+  },
+  "aliases": [
+   "Republic of Liberia",
+   "République du Libéria"
+  ],
+  "capital": {
+   "en": "Monrovia",
+   "fr": "Monrovia",
+   "lat": 6.3146,
+   "lng": -10.7997
+  },
+  "view": {
+   "lat": 6.45,
+   "lng": -9.31,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LS",
+  "name": {
+   "en": "Lesotho",
+   "fr": "Lesotho"
+  },
+  "aliases": [
+   "Kingdom of Lesotho",
+   "Royaume du Lesotho",
+   "Muso oa Lesotho"
+  ],
+  "capital": {
+   "en": "Maseru",
+   "fr": "Maseru",
+   "lat": -29.3167,
+   "lng": 27.4833
+  },
+  "view": {
+   "lat": -29.57,
+   "lng": 28.24,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LT",
+  "name": {
+   "en": "Lithuania",
+   "fr": "Lituanie"
+  },
+  "aliases": [
+   "Republic of Lithuania",
+   "République de Lituanie",
+   "Lietuvos Respublika"
+  ],
+  "capital": {
+   "en": "Vilnius",
+   "fr": "Vilnius",
+   "lat": 54.6834,
+   "lng": 25.3166
+  },
+  "view": {
+   "lat": 55.32,
+   "lng": 23.88,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LU",
+  "name": {
+   "en": "Luxembourg",
+   "fr": "Luxembourg"
+  },
+  "aliases": [
+   "Grand Duchy of Luxembourg",
+   "Grand-Duché de Luxembourg",
+   "Großherzogtum Luxemburg",
+   "Groussherzogtum Lëtzebuerg"
+  ],
+  "capital": {
+   "en": "Luxembourg",
+   "fr": "Luxembourg",
+   "lat": 49.6117,
+   "lng": 6.13
+  },
+  "view": {
+   "lat": 49.76,
+   "lng": 6.1,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LV",
+  "name": {
+   "en": "Latvia",
+   "fr": "Lettonie"
+  },
+  "aliases": [
+   "Republic of Latvia",
+   "République de Lettonie",
+   "Latvijas Republika"
+  ],
+  "capital": {
+   "en": "Riga",
+   "fr": "Riga",
+   "lat": 56.95,
+   "lng": 24.1
+  },
+  "view": {
+   "lat": 56.86,
+   "lng": 24.89,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "LY",
+  "name": {
+   "en": "Libya",
+   "fr": "Libye"
+  },
+  "aliases": [
+   "State of Libya",
+   "Grande République arabe libyenne populaire et socialiste",
+   "Dawlat Libya"
+  ],
+  "capital": {
+   "en": "Tripoli",
+   "fr": "Tripoli",
+   "lat": 32.8925,
+   "lng": 13.18
+  },
+  "view": {
+   "lat": 27.02,
+   "lng": 18.07,
+   "altitude": 1.2
+  }
+ },
+ {
+  "code": "MA",
+  "name": {
+   "en": "Morocco",
+   "fr": "Maroc"
+  },
+  "aliases": [
+   "Kingdom of Morocco",
+   "Royaume du Maroc",
+   "Al-Mamlakah al-Maġribiyah"
+  ],
+  "capital": {
+   "en": "Rabat",
+   "fr": "Rabat",
+   "lat": 34.0253,
+   "lng": -6.8364
+  },
+  "view": {
+   "lat": 29.77,
+   "lng": -8.74,
+   "altitude": 0.72
+  }
+ },
+ {
+  "code": "MC",
+  "name": {
+   "en": "Monaco",
+   "fr": "Monaco"
+  },
+  "aliases": [
+   "Principality of Monaco",
+   "Principauté de Monaco"
+  ],
+  "capital": {
+   "en": "Monaco",
+   "fr": "Monaco",
+   "lat": 43.7396,
+   "lng": 7.4069
+  },
+  "view": {
+   "lat": 43.75,
+   "lng": 7.41,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MD",
+  "name": {
+   "en": "Moldova",
+   "fr": "Moldavie"
+  },
+  "aliases": [
+   "Republic of Moldova",
+   "République de Moldavie",
+   "Moldova, Republic of",
+   "Republica Moldova"
+  ],
+  "capital": {
+   "en": "Chișinău",
+   "fr": "Chișinău",
+   "lat": 47.005,
+   "lng": 28.8577
+  },
+  "view": {
+   "lat": 47.2,
+   "lng": 28.47,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "ME",
+  "name": {
+   "en": "Montenegro",
+   "fr": "Monténégro"
+  },
+  "aliases": [
+   "Crna Gora"
+  ],
+  "capital": {
+   "en": "Podgorica",
+   "fr": "Podgorica",
+   "lat": 42.466,
+   "lng": 19.2663
+  },
+  "view": {
+   "lat": 42.79,
+   "lng": 19.2,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MG",
+  "name": {
+   "en": "Madagascar",
+   "fr": "Madagascar"
+  },
+  "aliases": [
+   "Republic of Madagascar",
+   "République de Madagascar",
+   "Repoblikan'i Madagasikara"
+  ],
+  "capital": {
+   "en": "Antananarivo",
+   "fr": "Antananarivo",
+   "lat": -18.9147,
+   "lng": 47.5147
+  },
+  "view": {
+   "lat": -19.32,
+   "lng": 46.74,
+   "altitude": 0.73
+  }
+ },
+ {
+  "code": "MH",
+  "name": {
+   "en": "Marshall Islands",
+   "fr": "Îles Marshall"
+  },
+  "aliases": [
+   "Republic of the Marshall Islands",
+   "République des Îles Marshall",
+   "Aolepān Aorōkin M̧ajeļ"
+  ],
+  "capital": {
+   "en": "Majuro",
+   "fr": "Majuro",
+   "lat": 7.103,
+   "lng": 171.38
+  },
+  "view": {
+   "lat": 7.1,
+   "lng": 171.15,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MK",
+  "name": {
+   "en": "North Macedonia",
+   "fr": "Macédoine du Nord"
+  },
+  "aliases": [
+   "Republic of North Macedonia",
+   "République de Macédoine du Nord",
+   "The former Yugoslav Republic of Macedonia",
+   "Macedonia, The Former Yugoslav Republic of",
+   "Република Северна Македонија",
+   "Macedonia",
+   "Macédoine"
+  ],
+  "capital": {
+   "en": "Skopje",
+   "fr": "Skopje",
+   "lat": 42,
+   "lng": 21.4335
+  },
+  "view": {
+   "lat": 41.6,
+   "lng": 21.7,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "ML",
+  "name": {
+   "en": "Mali",
+   "fr": "Mali"
+  },
+  "aliases": [
+   "Republic of Mali",
+   "République du Mali"
+  ],
+  "capital": {
+   "en": "Bamako",
+   "fr": "Bamako",
+   "lat": 12.652,
+   "lng": -8.002
+  },
+  "view": {
+   "lat": 17.32,
+   "lng": -3.58,
+   "altitude": 1.06
+  }
+ },
+ {
+  "code": "MM",
+  "name": {
+   "en": "Myanmar",
+   "fr": "Birmanie"
+  },
+  "aliases": [
+   "Republic of the Union of Myanmar",
+   "République de l'Union du Myanmar",
+   "Burma",
+   "Pyidaunzu Thanmăda Myăma Nainngandaw"
+  ],
+  "capital": {
+   "en": "Naypyidaw",
+   "fr": "Naypyidaw",
+   "lat": 19.7685,
+   "lng": 96.1167
+  },
+  "view": {
+   "lat": 21.15,
+   "lng": 96.5,
+   "altitude": 0.77
+  }
+ },
+ {
+  "code": "MN",
+  "name": {
+   "en": "Mongolia",
+   "fr": "Mongolie"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Ulaanbaatar",
+   "fr": "Oulan-Bator",
+   "lat": 47.9186,
+   "lng": 106.9147
+  },
+  "view": {
+   "lat": 46.96,
+   "lng": 103.14,
+   "altitude": 1.18
+  }
+ },
+ {
+  "code": "MR",
+  "name": {
+   "en": "Mauritania",
+   "fr": "Mauritanie"
+  },
+  "aliases": [
+   "Islamic Republic of Mauritania",
+   "République islamique de Mauritanie",
+   "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"
+  ],
+  "capital": {
+   "en": "Nouakchott",
+   "fr": "Nouakchott",
+   "lat": 18.0864,
+   "lng": -15.9753
+  },
+  "view": {
+   "lat": 20.22,
+   "lng": -10.38,
+   "altitude": 0.96
+  }
+ },
+ {
+  "code": "MT",
+  "name": {
+   "en": "Malta",
+   "fr": "Malte"
+  },
+  "aliases": [
+   "Republic of Malta",
+   "République de Malte",
+   "Repubblika ta' Malta"
+  ],
+  "capital": {
+   "en": "Valletta",
+   "fr": "La Valette",
+   "lat": 35.8997,
+   "lng": 14.5147
+  },
+  "view": {
+   "lat": 35.88,
+   "lng": 14.45,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MU",
+  "name": {
+   "en": "Mauritius",
+   "fr": "Île Maurice"
+  },
+  "aliases": [
+   "Republic of Mauritius",
+   "République de Maurice"
+  ],
+  "capital": {
+   "en": "Port Louis",
+   "fr": "Port-Louis",
+   "lat": -20.1666,
+   "lng": 57.5
+  },
+  "view": {
+   "lat": -20.23,
+   "lng": 57.6,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MV",
+  "name": {
+   "en": "Maldives",
+   "fr": "Maldives"
+  },
+  "aliases": [
+   "Republic of the Maldives",
+   "République des Maldives",
+   "Maldive Islands",
+   "Dhivehi Raajjeyge Jumhooriyya"
+  ],
+  "capital": {
+   "en": "Malé",
+   "fr": "Malé",
+   "lat": 4.1667,
+   "lng": 73.4999
+  },
+  "view": {
+   "lat": 4.2,
+   "lng": 73.5,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MW",
+  "name": {
+   "en": "Malawi",
+   "fr": "Malawi"
+  },
+  "aliases": [
+   "Republic of Malawi",
+   "République du Malawi"
+  ],
+  "capital": {
+   "en": "Lilongwe",
+   "fr": "Lilongwe",
+   "lat": -13.9833,
+   "lng": 33.7833
+  },
+  "view": {
+   "lat": -13.19,
+   "lng": 34.26,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "MX",
+  "name": {
+   "en": "Mexico",
+   "fr": "Mexique"
+  },
+  "aliases": [
+   "United Mexican States",
+   "États-Unis du Mexique",
+   "Mexicanos",
+   "Estados Unidos Mexicanos"
+  ],
+  "capital": {
+   "en": "Mexico City",
+   "fr": "Mexico",
+   "lat": 19.4444,
+   "lng": -99.1329
+  },
+  "view": {
+   "lat": 23.92,
+   "lng": -102.17,
+   "altitude": 1.32
+  }
+ },
+ {
+  "code": "MY",
+  "name": {
+   "en": "Malaysia",
+   "fr": "Malaisie"
+  },
+  "aliases": [
+   "Fédération de Malaisie"
+  ],
+  "capital": {
+   "en": "Kuala Lumpur",
+   "fr": "Kuala Lumpur",
+   "lat": 3.1686,
+   "lng": 101.698
+  },
+  "view": {
+   "lat": 3.57,
+   "lng": 114.68,
+   "altitude": 0.42
+  }
+ },
+ {
+  "code": "MZ",
+  "name": {
+   "en": "Mozambique",
+   "fr": "Mozambique"
+  },
+  "aliases": [
+   "Republic of Mozambique",
+   "République du Mozambique",
+   "República de Moçambique"
+  ],
+  "capital": {
+   "en": "Maputo",
+   "fr": "Maputo",
+   "lat": -25.9533,
+   "lng": 32.5872
+  },
+  "view": {
+   "lat": -17.2,
+   "lng": 35.6,
+   "altitude": 0.84
+  }
+ },
+ {
+  "code": "NA",
+  "name": {
+   "en": "Namibia",
+   "fr": "Namibie"
+  },
+  "aliases": [
+   "Republic of Namibia",
+   "République de Namibie",
+   "Namibië"
+  ],
+  "capital": {
+   "en": "Windhoek",
+   "fr": "Windhoek",
+   "lat": -22.57,
+   "lng": 17.0835
+  },
+  "view": {
+   "lat": -22.08,
+   "lng": 17.2,
+   "altitude": 0.86
+  }
+ },
+ {
+  "code": "NE",
+  "name": {
+   "en": "Niger",
+   "fr": "Niger"
+  },
+  "aliases": [
+   "Republic of Niger",
+   "République du Niger",
+   "Nijar"
+  ],
+  "capital": {
+   "en": "Niamey",
+   "fr": "Niamey",
+   "lat": 13.5187,
+   "lng": 2.1147
+  },
+  "view": {
+   "lat": 17.41,
+   "lng": 9.33,
+   "altitude": 1.02
+  }
+ },
+ {
+  "code": "NG",
+  "name": {
+   "en": "Nigeria",
+   "fr": "Nigéria"
+  },
+  "aliases": [
+   "Federal Republic of Nigeria",
+   "République fédérale du Nigeria",
+   "Nijeriya",
+   "Naíjíríà"
+  ],
+  "capital": {
+   "en": "Abuja",
+   "fr": "Abuja",
+   "lat": 9.0853,
+   "lng": 7.5314
+  },
+  "view": {
+   "lat": 9.58,
+   "lng": 8.07,
+   "altitude": 0.9
+  }
+ },
+ {
+  "code": "NI",
+  "name": {
+   "en": "Nicaragua",
+   "fr": "Nicaragua"
+  },
+  "aliases": [
+   "Republic of Nicaragua",
+   "République du Nicaragua",
+   "República de Nicaragua"
+  ],
+  "capital": {
+   "en": "Managua",
+   "fr": "Managua",
+   "lat": 12.155,
+   "lng": -86.2704
+  },
+  "view": {
+   "lat": 12.83,
+   "lng": -85.02,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "NL",
+  "name": {
+   "en": "Netherlands",
+   "fr": "Pays-Bas"
+  },
+  "aliases": [
+   "Kingdom of the Netherlands",
+   "Holland",
+   "Nederland",
+   "The Netherlands",
+   "Hollande"
+  ],
+  "capital": {
+   "en": "Amsterdam",
+   "fr": "Amsterdam",
+   "lat": 52.3519,
+   "lng": 4.9147
+  },
+  "view": {
+   "lat": 52.3,
+   "lng": 5.65,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "NO",
+  "name": {
+   "en": "Norway",
+   "fr": "Norvège"
+  },
+  "aliases": [
+   "Kingdom of Norway",
+   "Royaume de Norvège",
+   "Norge",
+   "Noreg",
+   "Kongeriket Norge",
+   "Kongeriket Noreg"
+  ],
+  "capital": {
+   "en": "Oslo",
+   "fr": "Oslo",
+   "lat": 59.9186,
+   "lng": 10.748
+  },
+  "view": {
+   "lat": 63.87,
+   "lng": 12.2,
+   "altitude": 0.54
+  }
+ },
+ {
+  "code": "NP",
+  "name": {
+   "en": "Nepal",
+   "fr": "Népal"
+  },
+  "aliases": [
+   "Federal Democratic Republic of Nepal",
+   "République du Népal",
+   "Loktāntrik Ganatantra Nepāl"
+  ],
+  "capital": {
+   "en": "Kathmandu",
+   "fr": "Katmandou",
+   "lat": 27.7186,
+   "lng": 85.3147
+  },
+  "view": {
+   "lat": 28.25,
+   "lng": 83.96,
+   "altitude": 0.36
+  }
+ },
+ {
+  "code": "NR",
+  "name": {
+   "en": "Nauru",
+   "fr": "Nauru"
+  },
+  "aliases": [
+   "Republic of Nauru",
+   "République de Nauru",
+   "Naoero",
+   "Pleasant Island",
+   "Ripublik Naoero"
+  ],
+  "capital": {
+   "en": "Yaren",
+   "fr": "Yaren",
+   "lat": -0.5477,
+   "lng": 166.9209
+  },
+  "view": {
+   "lat": -0.52,
+   "lng": 166.93,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "NZ",
+  "name": {
+   "en": "New Zealand",
+   "fr": "Nouvelle-Zélande"
+  },
+  "aliases": [
+   "Aotearoa"
+  ],
+  "capital": {
+   "en": "Wellington",
+   "fr": "Wellington",
+   "lat": -41.3,
+   "lng": 174.7833
+  },
+  "view": {
+   "lat": -43.93,
+   "lng": 170.63,
+   "altitude": 0.36
+  }
+ },
+ {
+  "code": "OM",
+  "name": {
+   "en": "Oman",
+   "fr": "Oman"
+  },
+  "aliases": [
+   "Sultanate of Oman",
+   "Sultanat d'Oman",
+   "Salṭanat ʻUmān"
+  ],
+  "capital": {
+   "en": "Muscat",
+   "fr": "Mascate",
+   "lat": 23.6133,
+   "lng": 58.5933
+  },
+  "view": {
+   "lat": 20.56,
+   "lng": 56.05,
+   "altitude": 0.53
+  }
+ },
+ {
+  "code": "PA",
+  "name": {
+   "en": "Panama",
+   "fr": "Panama"
+  },
+  "aliases": [
+   "Republic of Panama",
+   "République du Panama",
+   "República de Panamá"
+  ],
+  "capital": {
+   "en": "Panama City",
+   "fr": "Panama",
+   "lat": 8.97,
+   "lng": -79.535
+  },
+  "view": {
+   "lat": 8.53,
+   "lng": -80.1,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "PE",
+  "name": {
+   "en": "Peru",
+   "fr": "Pérou"
+  },
+  "aliases": [
+   "Republic of Peru",
+   "République du Pérou",
+   "República del Perú"
+  ],
+  "capital": {
+   "en": "Lima",
+   "fr": "Lima",
+   "lat": -12.0461,
+   "lng": -77.052
+  },
+  "view": {
+   "lat": -9.11,
+   "lng": -74.43,
+   "altitude": 1.07
+  }
+ },
+ {
+  "code": "PG",
+  "name": {
+   "en": "Papua New Guinea",
+   "fr": "Papouasie-Nouvelle-Guinée"
+  },
+  "aliases": [
+   "Independent State of Papua New Guinea",
+   "État indépendant de Papouasie-Nouvelle-Guinée",
+   "Independen Stet bilong Papua Niugini"
+  ],
+  "capital": {
+   "en": "Port Moresby",
+   "fr": "Port Moresby",
+   "lat": -9.4647,
+   "lng": 147.1925
+  },
+  "view": {
+   "lat": -6.61,
+   "lng": 144.22,
+   "altitude": 0.6
+  }
+ },
+ {
+  "code": "PH",
+  "name": {
+   "en": "Philippines",
+   "fr": "Philippines"
+  },
+  "aliases": [
+   "Republic of the Philippines",
+   "République des Philippines",
+   "Repúblika ng Pilipinas"
+  ],
+  "capital": {
+   "en": "Manila",
+   "fr": "Manille",
+   "lat": 14.6061,
+   "lng": 120.9803
+  },
+  "view": {
+   "lat": 15.95,
+   "lng": 121.46,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "PK",
+  "name": {
+   "en": "Pakistan",
+   "fr": "Pakistan"
+  },
+  "aliases": [
+   "Islamic Republic of Pakistan",
+   "République islamique du Pakistan",
+   "Pākistān",
+   "Islāmī Jumhūriya'eh Pākistān"
+  ],
+  "capital": {
+   "en": "Islamabad",
+   "fr": "Islamabad",
+   "lat": 33.7019,
+   "lng": 73.1647
+  },
+  "view": {
+   "lat": 29.89,
+   "lng": 69.16,
+   "altitude": 0.88
+  }
+ },
+ {
+  "code": "PL",
+  "name": {
+   "en": "Poland",
+   "fr": "Pologne"
+  },
+  "aliases": [
+   "Republic of Poland",
+   "République de Pologne",
+   "Rzeczpospolita Polska"
+  ],
+  "capital": {
+   "en": "Warsaw",
+   "fr": "Varsovie",
+   "lat": 52.2519,
+   "lng": 20.9981
+  },
+  "view": {
+   "lat": 52.12,
+   "lng": 19.39,
+   "altitude": 0.53
+  }
+ },
+ {
+  "code": "PS",
+  "name": {
+   "en": "Palestine",
+   "fr": "Palestine"
+  },
+  "aliases": [
+   "State of Palestine",
+   "État de Palestine",
+   "Palestine, State of",
+   "Dawlat Filasṭin"
+  ],
+  "capital": {
+   "en": "Ramallah",
+   "fr": "Ramallah",
+   "lat": 31.9029,
+   "lng": 35.2062
+  },
+  "view": {
+   "lat": 31.99,
+   "lng": 35.27,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "PT",
+  "name": {
+   "en": "Portugal",
+   "fr": "Portugal"
+  },
+  "aliases": [
+   "Portuguese Republic",
+   "République portugaise",
+   "Portuguesa",
+   "República Portuguesa"
+  ],
+  "capital": {
+   "en": "Lisbon",
+   "fr": "Lisbonne",
+   "lat": 38.7247,
+   "lng": -9.1468
+  },
+  "view": {
+   "lat": 39.66,
+   "lng": -7.99,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "PW",
+  "name": {
+   "en": "Palau",
+   "fr": "Palaos"
+  },
+  "aliases": [
+   "Republic of Palau",
+   "République des Palaos (Palau)",
+   "Palaos (Palau)",
+   "Beluu er a Belau"
+  ],
+  "capital": {
+   "en": "Ngerulmud",
+   "fr": "Ngerulmud",
+   "lat": 7.5006,
+   "lng": 134.6242
+  },
+  "view": {
+   "lat": 7.52,
+   "lng": 134.58,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "PY",
+  "name": {
+   "en": "Paraguay",
+   "fr": "Paraguay"
+  },
+  "aliases": [
+   "Republic of Paraguay",
+   "République du Paraguay",
+   "República del Paraguay",
+   "Tetã Paraguái"
+  ],
+  "capital": {
+   "en": "Asunción",
+   "fr": "Asuncion",
+   "lat": -25.2945,
+   "lng": -57.6435
+  },
+  "view": {
+   "lat": -23.21,
+   "lng": -58.44,
+   "altitude": 0.6
+  }
+ },
+ {
+  "code": "QA",
+  "name": {
+   "en": "Qatar",
+   "fr": "Qatar"
+  },
+  "aliases": [
+   "State of Qatar",
+   "État du Qatar",
+   "Dawlat Qaṭar"
+  ],
+  "capital": {
+   "en": "Doha",
+   "fr": "Doha",
+   "lat": 25.2866,
+   "lng": 51.533
+  },
+  "view": {
+   "lat": 25.35,
+   "lng": 51.17,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "RO",
+  "name": {
+   "en": "Romania",
+   "fr": "Roumanie"
+  },
+  "aliases": [
+   "Rumania",
+   "Roumania",
+   "România"
+  ],
+  "capital": {
+   "en": "Bucharest",
+   "fr": "Bucarest",
+   "lat": 44.4353,
+   "lng": 26.098
+  },
+  "view": {
+   "lat": 45.84,
+   "lng": 24.98,
+   "altitude": 0.46
+  }
+ },
+ {
+  "code": "RS",
+  "name": {
+   "en": "Serbia",
+   "fr": "Serbie"
+  },
+  "aliases": [
+   "Republic of Serbia",
+   "République de Serbie",
+   "Srbija",
+   "Republika Srbija",
+   "Србија",
+   "Република Србија"
+  ],
+  "capital": {
+   "en": "Belgrade",
+   "fr": "Belgrade",
+   "lat": 44.8206,
+   "lng": 20.466
+  },
+  "view": {
+   "lat": 44.2,
+   "lng": 20.77,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "RU",
+  "name": {
+   "en": "Russia",
+   "fr": "Russie"
+  },
+  "aliases": [
+   "Russian Federation",
+   "Fédération de Russie",
+   "Российская Федерация"
+  ],
+  "capital": {
+   "en": "Moscow",
+   "fr": "Moscou",
+   "lat": 55.7541,
+   "lng": 37.6136
+  },
+  "view": {
+   "lat": 65.75,
+   "lng": 95.12,
+   "altitude": 2.2
+  }
+ },
+ {
+  "code": "RW",
+  "name": {
+   "en": "Rwanda",
+   "fr": "Rwanda"
+  },
+  "aliases": [
+   "Republic of Rwanda",
+   "République rwandaise",
+   "Repubulika y'u Rwanda",
+   "République du Rwanda"
+  ],
+  "capital": {
+   "en": "Kigali",
+   "fr": "Kigali",
+   "lat": -1.9516,
+   "lng": 30.0586
+  },
+  "view": {
+   "lat": -2,
+   "lng": 29.92,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SA",
+  "name": {
+   "en": "Saudi Arabia",
+   "fr": "Arabie saoudite"
+  },
+  "aliases": [
+   "Kingdom of Saudi Arabia",
+   "Royaume d'Arabie Saoudite",
+   "Arabie Saoudite",
+   "Saudi",
+   "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+  ],
+  "capital": {
+   "en": "Riyadh",
+   "fr": "Riyad",
+   "lat": 24.6428,
+   "lng": 46.7708
+  },
+  "view": {
+   "lat": 24.09,
+   "lng": 44.66,
+   "altitude": 1.31
+  }
+ },
+ {
+  "code": "SB",
+  "name": {
+   "en": "Solomon Islands",
+   "fr": "Îles Salomon"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Honiara",
+   "fr": "Honiara",
+   "lat": -9.438,
+   "lng": 159.9498
+  },
+  "view": {
+   "lat": -9.63,
+   "lng": 160.16,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SC",
+  "name": {
+   "en": "Seychelles",
+   "fr": "Seychelles"
+  },
+  "aliases": [
+   "Republic of Seychelles",
+   "République des Seychelles",
+   "Repiblik Sesel"
+  ],
+  "capital": {
+   "en": "Victoria",
+   "fr": "Victoria",
+   "lat": -4.6166,
+   "lng": 55.45
+  },
+  "view": {
+   "lat": -4.62,
+   "lng": 55.46,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SD",
+  "name": {
+   "en": "Sudan",
+   "fr": "Soudan"
+  },
+  "aliases": [
+   "Republic of the Sudan",
+   "République du Soudan",
+   "Jumhūrīyat as-Sūdān"
+  ],
+  "capital": {
+   "en": "Khartoum",
+   "fr": "Khartoum",
+   "lat": 15.59,
+   "lng": 32.5322
+  },
+  "view": {
+   "lat": 15.97,
+   "lng": 29.91,
+   "altitude": 1.29
+  }
+ },
+ {
+  "code": "SE",
+  "name": {
+   "en": "Sweden",
+   "fr": "Suède"
+  },
+  "aliases": [
+   "Kingdom of Sweden",
+   "Royaume de Suède",
+   "Konungariket Sverige"
+  ],
+  "capital": {
+   "en": "Stockholm",
+   "fr": "Stockholm",
+   "lat": 59.3527,
+   "lng": 18.0954
+  },
+  "view": {
+   "lat": 62.45,
+   "lng": 16.27,
+   "altitude": 0.63
+  }
+ },
+ {
+  "code": "SG",
+  "name": {
+   "en": "Singapore",
+   "fr": "Singapour"
+  },
+  "aliases": [
+   "Republic of Singapore",
+   "République de Singapour",
+   "Singapura",
+   "Republik Singapura",
+   "新加坡共和国"
+  ],
+  "capital": {
+   "en": "Singapore",
+   "fr": "Singapour",
+   "lat": 1.295,
+   "lng": 103.8539
+  },
+  "view": {
+   "lat": 1.35,
+   "lng": 103.81,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SI",
+  "name": {
+   "en": "Slovenia",
+   "fr": "Slovénie"
+  },
+  "aliases": [
+   "Republic of Slovenia",
+   "République de Slovénie",
+   "Republika Slovenija"
+  ],
+  "capital": {
+   "en": "Ljubljana",
+   "fr": "Ljubljana",
+   "lat": 46.0553,
+   "lng": 14.515
+  },
+  "view": {
+   "lat": 46.08,
+   "lng": 14.77,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SK",
+  "name": {
+   "en": "Slovakia",
+   "fr": "Slovaquie"
+  },
+  "aliases": [
+   "Slovak Republic",
+   "République slovaque",
+   "Slovenská republika"
+  ],
+  "capital": {
+   "en": "Bratislava",
+   "fr": "Bratislava",
+   "lat": 48.15,
+   "lng": 17.117
+  },
+  "view": {
+   "lat": 48.72,
+   "lng": 19.47,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SL",
+  "name": {
+   "en": "Sierra Leone",
+   "fr": "Sierra Leone"
+  },
+  "aliases": [
+   "Republic of Sierra Leone",
+   "République de Sierra Leone"
+  ],
+  "capital": {
+   "en": "Freetown",
+   "fr": "Freetown",
+   "lat": 8.472,
+   "lng": -13.2362
+  },
+  "view": {
+   "lat": 8.58,
+   "lng": -11.78,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SM",
+  "name": {
+   "en": "San Marino",
+   "fr": "Saint-Marin"
+  },
+  "aliases": [
+   "Most Serene Republic of San Marino",
+   "République de Saint-Marin",
+   "Republic of San Marino",
+   "Repubblica di San Marino"
+  ],
+  "capital": {
+   "en": "San Marino",
+   "fr": "Saint-Marin",
+   "lat": 43.9361,
+   "lng": 12.4418
+  },
+  "view": {
+   "lat": 43.94,
+   "lng": 12.46,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SN",
+  "name": {
+   "en": "Senegal",
+   "fr": "Sénégal"
+  },
+  "aliases": [
+   "Republic of Senegal",
+   "République du Sénégal"
+  ],
+  "capital": {
+   "en": "Dakar",
+   "fr": "Dakar",
+   "lat": 14.7178,
+   "lng": -17.4751
+  },
+  "view": {
+   "lat": 14.33,
+   "lng": -14.47,
+   "altitude": 0.42
+  }
+ },
+ {
+  "code": "SO",
+  "name": {
+   "en": "Somalia",
+   "fr": "Somalie"
+  },
+  "aliases": [
+   "Federal Republic of Somalia",
+   "République fédérale de Somalie",
+   "aṣ-Ṣūmāl",
+   "Jamhuuriyadda Federaalka Soomaaliya",
+   "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"
+  ],
+  "capital": {
+   "en": "Mogadishu",
+   "fr": "Mogadiscio",
+   "lat": 2.0686,
+   "lng": 45.3647
+  },
+  "view": {
+   "lat": 6.05,
+   "lng": 45.83,
+   "altitude": 0.75
+  }
+ },
+ {
+  "code": "SR",
+  "name": {
+   "en": "Suriname",
+   "fr": "Surinam"
+  },
+  "aliases": [
+   "Republic of Suriname",
+   "République du Suriname",
+   "Sarnam",
+   "Sranangron",
+   "Republiek Suriname"
+  ],
+  "capital": {
+   "en": "Paramaribo",
+   "fr": "Paramaribo",
+   "lat": 5.835,
+   "lng": -55.167
+  },
+  "view": {
+   "lat": 4.13,
+   "lng": -55.91,
+   "altitude": 0.36
+  }
+ },
+ {
+  "code": "SS",
+  "name": {
+   "en": "South Sudan",
+   "fr": "Soudan du Sud"
+  },
+  "aliases": [
+   "Republic of South Sudan",
+   "République du Soudan du Sud"
+  ],
+  "capital": {
+   "en": "Juba",
+   "fr": "Djouba",
+   "lat": 4.83,
+   "lng": 31.58
+  },
+  "view": {
+   "lat": 7.31,
+   "lng": 30.26,
+   "altitude": 0.74
+  }
+ },
+ {
+  "code": "ST",
+  "name": {
+   "en": "São Tomé and Príncipe",
+   "fr": "São Tomé et Príncipe"
+  },
+  "aliases": [
+   "Democratic Republic of São Tomé and Príncipe",
+   "République démocratique de São Tomé et Príncipe",
+   "Sao Tome and Principe",
+   "República Democrática de São Tomé e Príncipe"
+  ],
+  "capital": {
+   "en": "São Tomé",
+   "fr": "São Tomé",
+   "lat": 0.3334,
+   "lng": 6.7333
+  },
+  "view": {
+   "lat": 0.28,
+   "lng": 6.65,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SV",
+  "name": {
+   "en": "El Salvador",
+   "fr": "Salvador"
+  },
+  "aliases": [
+   "Republic of El Salvador",
+   "République du Salvador",
+   "República de El Salvador"
+  ],
+  "capital": {
+   "en": "San Salvador",
+   "fr": "San Salvador",
+   "lat": 13.7119,
+   "lng": -89.205
+  },
+  "view": {
+   "lat": 13.74,
+   "lng": -88.86,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "SY",
+  "name": {
+   "en": "Syria",
+   "fr": "Syrie"
+  },
+  "aliases": [
+   "Syrian Arab Republic",
+   "République arabe syrienne",
+   "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"
+  ],
+  "capital": {
+   "en": "Damascus",
+   "fr": "Damas",
+   "lat": 33.502,
+   "lng": 36.2981
+  },
+  "view": {
+   "lat": 35.02,
+   "lng": 38.48,
+   "altitude": 0.41
+  }
+ },
+ {
+  "code": "SZ",
+  "name": {
+   "en": "Eswatini",
+   "fr": "Eswatini"
+  },
+  "aliases": [
+   "Kingdom of Eswatini",
+   "Royaume d’Eswatini",
+   "Swaziland",
+   "weSwatini",
+   "Swatini",
+   "Ngwane",
+   "Umbuso weSwatini"
+  ],
+  "capital": {
+   "en": "Lobamba",
+   "fr": "Lobamba",
+   "lat": -26.4667,
+   "lng": 31.2
+  },
+  "view": {
+   "lat": -26.57,
+   "lng": 31.48,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TD",
+  "name": {
+   "en": "Chad",
+   "fr": "Tchad"
+  },
+  "aliases": [
+   "Republic of Chad",
+   "République du Tchad"
+  ],
+  "capital": {
+   "en": "N'Djamena",
+   "fr": "N'Djaména",
+   "lat": 12.115,
+   "lng": 15.0472
+  },
+  "view": {
+   "lat": 15.27,
+   "lng": 18.64,
+   "altitude": 1.06
+  }
+ },
+ {
+  "code": "TG",
+  "name": {
+   "en": "Togo",
+   "fr": "Togo"
+  },
+  "aliases": [
+   "Togolese Republic",
+   "République togolaise",
+   "Togolese",
+   "République Togolaise"
+  ],
+  "capital": {
+   "en": "Lomé",
+   "fr": "Lomé",
+   "lat": 6.1339,
+   "lng": 1.2208
+  },
+  "view": {
+   "lat": 8.57,
+   "lng": 0.95,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TH",
+  "name": {
+   "en": "Thailand",
+   "fr": "Thaïlande"
+  },
+  "aliases": [
+   "Kingdom of Thailand",
+   "Royaume de Thaïlande",
+   "Prathet",
+   "Thai",
+   "ราชอาณาจักรไทย",
+   "Ratcha Anachak Thai"
+  ],
+  "capital": {
+   "en": "Bangkok",
+   "fr": "Bangkok",
+   "lat": 13.7519,
+   "lng": 100.5147
+  },
+  "view": {
+   "lat": 15.09,
+   "lng": 101.01,
+   "altitude": 0.67
+  }
+ },
+ {
+  "code": "TJ",
+  "name": {
+   "en": "Tajikistan",
+   "fr": "Tadjikistan"
+  },
+  "aliases": [
+   "Republic of Tajikistan",
+   "République du Tadjikistan",
+   "Toçikiston",
+   "Ҷумҳурии Тоҷикистон",
+   "Çumhuriyi Toçikiston"
+  ],
+  "capital": {
+   "en": "Dushanbe",
+   "fr": "Douchanbé",
+   "lat": 38.56,
+   "lng": 68.7739
+  },
+  "view": {
+   "lat": 38.56,
+   "lng": 70.99,
+   "altitude": 0.36
+  }
+ },
+ {
+  "code": "TL",
+  "name": {
+   "en": "Timor-Leste",
+   "fr": "Timor oriental"
+  },
+  "aliases": [
+   "Democratic Republic of Timor-Leste",
+   "République démocratique du Timor oriental",
+   "East Timor",
+   "Timor",
+   "República Democrática de Timor-Leste",
+   "Repúblika Demokrátika Timór-Leste",
+   "Timór Lorosa'e",
+   "Timor Lorosae"
+  ],
+  "capital": {
+   "en": "Dili",
+   "fr": "Dili",
+   "lat": -8.5594,
+   "lng": 125.5795
+  },
+  "view": {
+   "lat": -8.86,
+   "lng": 125.78,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TM",
+  "name": {
+   "en": "Turkmenistan",
+   "fr": "Turkménistan"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Ashgabat",
+   "fr": "Achgabat",
+   "lat": 37.95,
+   "lng": 58.3833
+  },
+  "view": {
+   "lat": 39.12,
+   "lng": 59.47,
+   "altitude": 0.64
+  }
+ },
+ {
+  "code": "TN",
+  "name": {
+   "en": "Tunisia",
+   "fr": "Tunisie"
+  },
+  "aliases": [
+   "Tunisian Republic",
+   "République tunisienne",
+   "Republic of Tunisia",
+   "al-Jumhūriyyah at-Tūnisiyyah"
+  ],
+  "capital": {
+   "en": "Tunis",
+   "fr": "Tunis",
+   "lat": 36.8028,
+   "lng": 10.1797
+  },
+  "view": {
+   "lat": 34.1,
+   "lng": 9.55,
+   "altitude": 0.37
+  }
+ },
+ {
+  "code": "TO",
+  "name": {
+   "en": "Tonga",
+   "fr": "Tonga"
+  },
+  "aliases": [
+   "Kingdom of Tonga",
+   "Royaume des Tonga"
+  ],
+  "capital": {
+   "en": "Nuku'alofa",
+   "fr": "Nukuʻalofa",
+   "lat": -21.1385,
+   "lng": -175.2206
+  },
+  "view": {
+   "lat": -21.18,
+   "lng": -175.23,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TR",
+  "name": {
+   "en": "Türkiye",
+   "fr": "Turquie"
+  },
+  "aliases": [
+   "Republic of Türkiye",
+   "République de Turquie",
+   "Turkiye",
+   "Republic of Turkey",
+   "Türkiye Cumhuriyeti",
+   "Turkey"
+  ],
+  "capital": {
+   "en": "Ankara",
+   "fr": "Ankara",
+   "lat": 39.9292,
+   "lng": 32.8624
+  },
+  "view": {
+   "lat": 39.07,
+   "lng": 35.41,
+   "altitude": 0.82
+  }
+ },
+ {
+  "code": "TT",
+  "name": {
+   "en": "Trinidad and Tobago",
+   "fr": "Trinité-et-Tobago"
+  },
+  "aliases": [
+   "Republic of Trinidad and Tobago",
+   "République de Trinité-et-Tobago"
+  ],
+  "capital": {
+   "en": "Port of Spain",
+   "fr": "Port-d'Espagne",
+   "lat": 10.652,
+   "lng": -61.517
+  },
+  "view": {
+   "lat": 10.34,
+   "lng": -61.27,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TV",
+  "name": {
+   "en": "Tuvalu",
+   "fr": "Tuvalu"
+  },
+  "aliases": [],
+  "capital": {
+   "en": "Funafuti",
+   "fr": "Funafuti",
+   "lat": -8.5167,
+   "lng": 179.2166
+  },
+  "view": {
+   "lat": -8.5,
+   "lng": 179.21,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TW",
+  "name": {
+   "en": "Taiwan",
+   "fr": "Taïwan"
+  },
+  "aliases": [
+   "Republic of China (Taiwan)",
+   "République de Chine (Taïwan)",
+   "Táiwān",
+   "Republic of China",
+   "中華民國",
+   "Zhōnghuá Mínguó",
+   "Chinese Taipei"
+  ],
+  "capital": {
+   "en": "Taipei",
+   "fr": "Taipei",
+   "lat": 25.0358,
+   "lng": 121.5683
+  },
+  "view": {
+   "lat": 23.81,
+   "lng": 120.96,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "TZ",
+  "name": {
+   "en": "Tanzania",
+   "fr": "Tanzanie"
+  },
+  "aliases": [
+   "United Republic of Tanzania",
+   "République -Unie de Tanzanie",
+   "Tanzania, United Republic of",
+   "Jamhuri ya Muungano wa Tanzania"
+  ],
+  "capital": {
+   "en": "Dodoma",
+   "fr": "Dodoma",
+   "lat": -6.1833,
+   "lng": 35.75
+  },
+  "view": {
+   "lat": -6.27,
+   "lng": 34.79,
+   "altitude": 0.91
+  }
+ },
+ {
+  "code": "UA",
+  "name": {
+   "en": "Ukraine",
+   "fr": "Ukraine"
+  },
+  "aliases": [
+   "Ukrayina"
+  ],
+  "capital": {
+   "en": "Kyiv",
+   "fr": "Kiev",
+   "lat": 50.4353,
+   "lng": 30.5147
+  },
+  "view": {
+   "lat": 49.21,
+   "lng": 31.29,
+   "altitude": 0.71
+  }
+ },
+ {
+  "code": "UG",
+  "name": {
+   "en": "Uganda",
+   "fr": "Ouganda"
+  },
+  "aliases": [
+   "Republic of Uganda",
+   "République de l'Ouganda",
+   "Jamhuri ya Uganda"
+  ],
+  "capital": {
+   "en": "Kampala",
+   "fr": "Kampala",
+   "lat": 0.3186,
+   "lng": 32.5814
+  },
+  "view": {
+   "lat": 1.27,
+   "lng": 32.36,
+   "altitude": 0.46
+  }
+ },
+ {
+  "code": "US",
+  "name": {
+   "en": "United States",
+   "fr": "États-Unis"
+  },
+  "aliases": [
+   "United States of America",
+   "Les états-unis d'Amérique",
+   "USA",
+   "US",
+   "America",
+   "Amérique"
+  ],
+  "capital": {
+   "en": "Washington, D.C.",
+   "fr": "Washington",
+   "lat": 38.9015,
+   "lng": -77.0114
+  },
+  "view": {
+   "lat": 39.89,
+   "lng": -98.82,
+   "altitude": 2.2
+  }
+ },
+ {
+  "code": "UY",
+  "name": {
+   "en": "Uruguay",
+   "fr": "Uruguay"
+  },
+  "aliases": [
+   "Oriental Republic of Uruguay",
+   "République orientale de l'Uruguay",
+   "República Oriental del Uruguay"
+  ],
+  "capital": {
+   "en": "Montevideo",
+   "fr": "Montevideo",
+   "lat": -34.8561,
+   "lng": -56.173
+  },
+  "view": {
+   "lat": -32.79,
+   "lng": -56.02,
+   "altitude": 0.4
+  }
+ },
+ {
+  "code": "UZ",
+  "name": {
+   "en": "Uzbekistan",
+   "fr": "Ouzbékistan"
+  },
+  "aliases": [
+   "Republic of Uzbekistan",
+   "République d'Ouzbékistan",
+   "O‘zbekiston Respublikasi",
+   "Ўзбекистон Республикаси"
+  ],
+  "capital": {
+   "en": "Tashkent",
+   "fr": "Tachkent",
+   "lat": 41.3136,
+   "lng": 69.293
+  },
+  "view": {
+   "lat": 41.78,
+   "lng": 63.29,
+   "altitude": 0.63
+  }
+ },
+ {
+  "code": "VA",
+  "name": {
+   "en": "Vatican City",
+   "fr": "Cité du Vatican"
+  },
+  "aliases": [
+   "Vatican City State",
+   "Holy See (Vatican City State)",
+   "Vatican",
+   "Stato della Città del Vaticano",
+   "Holy See",
+   "Saint-Siège"
+  ],
+  "capital": {
+   "en": "Vatican City",
+   "fr": "Cité du Vatican",
+   "lat": 41.9033,
+   "lng": 12.4534
+  },
+  "view": {
+   "lat": 41.9,
+   "lng": 12.43,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "VC",
+  "name": {
+   "en": "Saint Vincent and the Grenadines",
+   "fr": "Saint-Vincent-et-les-Grenadines"
+  },
+  "aliases": [
+   "Saint-Vincent-et-les Grenadines"
+  ],
+  "capital": {
+   "en": "Kingstown",
+   "fr": "Kingstown",
+   "lat": 13.1483,
+   "lng": -61.2121
+  },
+  "view": {
+   "lat": 13.25,
+   "lng": -61.19,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "VE",
+  "name": {
+   "en": "Venezuela",
+   "fr": "Venezuela"
+  },
+  "aliases": [
+   "Bolivarian Republic of Venezuela",
+   "République bolivarienne du Venezuela",
+   "Venezuela, Bolivarian Republic of",
+   "República Bolivariana de Venezuela"
+  ],
+  "capital": {
+   "en": "Caracas",
+   "fr": "Caracas",
+   "lat": 10.5029,
+   "lng": -66.919
+  },
+  "view": {
+   "lat": 7.12,
+   "lng": -66.18,
+   "altitude": 0.9
+  }
+ },
+ {
+  "code": "VN",
+  "name": {
+   "en": "Vietnam",
+   "fr": "Viêt Nam"
+  },
+  "aliases": [
+   "Socialist Republic of Vietnam",
+   "République socialiste du Viêt Nam",
+   "Cộng hòa Xã hội chủ nghĩa Việt Nam",
+   "Viet Nam"
+  ],
+  "capital": {
+   "en": "Hanoi",
+   "fr": "Hanoï",
+   "lat": 21.0353,
+   "lng": 105.8481
+  },
+  "view": {
+   "lat": 16.52,
+   "lng": 106.35,
+   "altitude": 0.54
+  }
+ },
+ {
+  "code": "VU",
+  "name": {
+   "en": "Vanuatu",
+   "fr": "Vanuatu"
+  },
+  "aliases": [
+   "Republic of Vanuatu",
+   "République de Vanuatu",
+   "Ripablik blong Vanuatu"
+  ],
+  "capital": {
+   "en": "Port Vila",
+   "fr": "Port-Vila",
+   "lat": -17.7334,
+   "lng": 168.3166
+  },
+  "view": {
+   "lat": -15.27,
+   "lng": 166.84,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "WS",
+  "name": {
+   "en": "Samoa",
+   "fr": "Samoa"
+  },
+  "aliases": [
+   "Independent State of Samoa",
+   "Malo Saʻoloto Tutoʻatasi o Sāmoa"
+  ],
+  "capital": {
+   "en": "Apia",
+   "fr": "Apia",
+   "lat": -13.8415,
+   "lng": -171.7386
+  },
+  "view": {
+   "lat": -13.65,
+   "lng": -172.45,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "XK",
+  "name": {
+   "en": "Kosovo",
+   "fr": "Kosovo"
+  },
+  "aliases": [
+   "Republic of Kosovo",
+   "République du Kosovo",
+   "Република Косово"
+  ],
+  "capital": {
+   "en": "Pristina",
+   "fr": "Pristina",
+   "lat": 42.6667,
+   "lng": 21.166
+  },
+  "view": {
+   "lat": 42.53,
+   "lng": 20.9,
+   "altitude": 0.35
+  }
+ },
+ {
+  "code": "YE",
+  "name": {
+   "en": "Yemen",
+   "fr": "Yémen"
+  },
+  "aliases": [
+   "Republic of Yemen",
+   "République du Yémen",
+   "Yemeni Republic",
+   "al-Jumhūriyyah al-Yamaniyyah"
+  ],
+  "capital": {
+   "en": "Sanaa",
+   "fr": "Sanaa",
+   "lat": 15.3567,
+   "lng": 44.2046
+  },
+  "view": {
+   "lat": 15.94,
+   "lng": 47.53,
+   "altitude": 0.63
+  }
+ },
+ {
+  "code": "ZA",
+  "name": {
+   "en": "South Africa",
+   "fr": "Afrique du Sud"
+  },
+  "aliases": [
+   "Republic of South Africa",
+   "République d'Afrique du Sud",
+   "RSA",
+   "Suid-Afrika"
+  ],
+  "capital": {
+   "en": "Pretoria",
+   "fr": "Pretoria",
+   "lat": -25.705,
+   "lng": 28.2275
+  },
+  "view": {
+   "lat": -28.98,
+   "lng": 25.19,
+   "altitude": 1.04
+  }
+ },
+ {
+  "code": "ZM",
+  "name": {
+   "en": "Zambia",
+   "fr": "Zambie"
+  },
+  "aliases": [
+   "Republic of Zambia",
+   "République de Zambie"
+  ],
+  "capital": {
+   "en": "Lusaka",
+   "fr": "Lusaka",
+   "lat": -15.4147,
+   "lng": 28.2814
+  },
+  "view": {
+   "lat": -13.45,
+   "lng": 27.81,
+   "altitude": 0.82
+  }
+ },
+ {
+  "code": "ZW",
+  "name": {
+   "en": "Zimbabwe",
+   "fr": "Zimbabwe"
+  },
+  "aliases": [
+   "Republic of Zimbabwe",
+   "République du Zimbabwe"
+  ],
+  "capital": {
+   "en": "Harare",
+   "fr": "Harare",
+   "lat": -17.8158,
+   "lng": 31.0428
+  },
+  "view": {
+   "lat": -19,
+   "lng": 29.85,
+   "altitude": 0.59
+  }
+ }
+]
