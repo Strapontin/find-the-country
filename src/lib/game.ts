@@ -16,6 +16,8 @@ export interface GameState {
   target: string;
   /** Daily puzzle number (daily mode only). */
   puzzle?: number;
+  /** Share code this free game was started from, if a friend sent it. */
+  sharedCode?: string;
   guesses: Guess[];
   status: Status;
 }
@@ -26,6 +28,11 @@ export function newDailyGame(puzzle: number): GameState {
 
 export function newFreeGame(previousTarget?: string): GameState {
   return { mode: 'free', target: randomCountry(previousTarget), guesses: [], status: 'playing' };
+}
+
+/** A free game on a friend's country, from their share code. */
+export function newSharedGame(target: string, sharedCode: string): GameState {
+  return { mode: 'free', target, sharedCode, guesses: [], status: 'playing' };
 }
 
 export function makeGuess(state: GameState, code: string): GameState {

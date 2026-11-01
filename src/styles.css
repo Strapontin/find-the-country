@@ -160,6 +160,131 @@ button {
   border-bottom-color: var(--magenta);
 }
 
+/* Free play: panel to share the country or join a friend's code */
+.modes .friends-toggle {
+  margin-left: auto;
+  padding: 10px 0 8px;
+  border-bottom-color: transparent;
+  font-size: var(--step--1);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.modes .friends-toggle[aria-expanded='true'] {
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.friends {
+  margin-bottom: 14px;
+  padding: 12px 14px 14px;
+  background: var(--strip);
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+}
+
+.friends-block + .friends-block {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--rule);
+}
+
+.friends-title {
+  display: block;
+  margin: 0 0 8px;
+  font-weight: 700;
+}
+
+.friends-note {
+  margin: -4px 0 10px;
+  max-width: 60ch;
+  font-size: var(--step--1);
+  color: var(--ink-2);
+}
+
+.friends-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+}
+
+.btn {
+  min-height: 40px;
+  padding: 0 14px;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  background: transparent;
+  font-weight: 700;
+}
+
+.btn.primary {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.friends-status {
+  font-size: var(--step--1);
+  font-weight: 700;
+  color: var(--found);
+}
+
+.friends-code {
+  margin: 10px 0 0;
+  color: var(--ink-2);
+}
+
+.friends-code strong {
+  margin-left: 6px;
+  font-size: var(--step-1);
+  letter-spacing: 0.08em;
+  color: var(--ink);
+}
+
+.friends-link {
+  width: 100%;
+  margin-top: 8px;
+  padding: 6px 8px;
+  font: inherit;
+  font-size: var(--step--1);
+  color: var(--ink);
+  background: #fff;
+  border: 1px solid var(--rule-strong);
+  border-radius: 4px;
+}
+
+.friends-input {
+  flex: 1;
+  min-width: 0;
+  max-width: 12rem;
+  height: 40px;
+  padding: 0 10px;
+  font: inherit;
+  font-size: var(--step-1);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: #fff;
+  border: 2px solid var(--ink);
+  border-radius: 4px;
+  outline: none;
+}
+
+.friends-input:focus {
+  border-color: var(--magenta);
+  box-shadow: 0 0 0 3px var(--magenta-tint);
+}
+
+.friends-input[aria-invalid='true'] {
+  border-color: var(--magenta);
+}
+
+.friends-error {
+  margin: 8px 0 0;
+  font-size: var(--step--1);
+  color: var(--magenta);
+}
+
 /* ---------- Guess input ---------- */
 
 .play {

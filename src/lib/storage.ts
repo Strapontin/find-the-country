@@ -33,6 +33,7 @@ const KEYS = {
 interface StoredGame {
   target: string;
   puzzle?: number;
+  sharedCode?: string;
   guesses: string[];
   status: Status;
 }
@@ -40,6 +41,7 @@ interface StoredGame {
 const toStored = (s: GameState): StoredGame => ({
   target: s.target,
   puzzle: s.puzzle,
+  sharedCode: s.sharedCode,
   guesses: s.guesses.map((g) => g.code),
   status: s.status,
 });
@@ -70,7 +72,9 @@ export function loadDaily(puzzle: number): GameState {
 export function loadFree(): GameState | undefined {
   const stored = read<StoredGame>(KEYS.free);
   if (!stored || !isPlayable(stored.target)) return undefined;
-  return replay({ mode: 'free', target: stored.target, guesses: [], status: 'playing' }, stored.guesses, stored.status);
+  const base: GameState = { mode: 'free', target: stored.target, guesses: [], status: 'playing' };
+  if (stored.sharedCode) base.sharedCode = stored.sharedCode;
+  return replay(base, stored.guesses, stored.status);
 }
 
 export function saveGame(state: GameState): void {

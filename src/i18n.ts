@@ -40,6 +40,20 @@ const en = {
   latest: 'Latest',
   loading: 'Loading the globe…',
   credits: 'Data:',
+  friends: 'With friends',
+  challengeTitle: 'Challenge a friend',
+  challengeNote: 'Same mystery country, without giving it away: every link is different, even for the same country.',
+  copyLink: (touch: boolean) => (touch ? 'Share link' : 'Copy link'),
+  linkCopied: 'Link copied',
+  linkShared: 'Link shared',
+  copyManually: 'Copy this link',
+  codeLabel: 'Code',
+  shareMessage: (code: string) => `Find the same mystery country as me. Code ${code}`,
+  haveCode: 'Got a code?',
+  playCode: 'Play',
+  badCode: "This code doesn't match a country. Check the 8 characters.",
+  badLink: "This link's code doesn't match a country. Ask for the link again or type the code.",
+  sharedIntro: (code: string) => `Shared country, code ${code}.`,
 };
 
 /** Every entry is a string, or a function returning one. */
@@ -82,6 +96,20 @@ const fr: Strings = {
   latest: 'Dernier',
   loading: 'Chargement du globe…',
   credits: `Données${NB}:`,
+  friends: 'Entre amis',
+  challengeTitle: 'Lancer un défi',
+  challengeNote: `Même pays mystère, sans le dévoiler${NB}: chaque lien est différent, même pour le même pays.`,
+  copyLink: (touch: boolean) => (touch ? 'Partager le lien' : 'Copier le lien'),
+  linkCopied: 'Lien copié',
+  linkShared: 'Lien partagé',
+  copyManually: 'Copie ce lien',
+  codeLabel: 'Code',
+  shareMessage: (code: string) => `Trouve le même pays mystère que moi. Code ${code}`,
+  haveCode: `Tu as un code${NNB}?`,
+  playCode: 'Jouer',
+  badCode: 'Ce code ne correspond à aucun pays. Vérifie les 8 caractères.',
+  badLink: 'Le code de ce lien ne correspond à aucun pays. Redemande le lien ou tape le code.',
+  sharedIntro: (code: string) => `Pays partagé, code ${code}.`,
 };
 
 const strings: Record<Lang, Strings> = { en, fr };
