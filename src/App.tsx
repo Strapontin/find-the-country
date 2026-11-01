@@ -1,11 +1,22 @@
 import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import FriendsPanel from './components/FriendsPanel';
 import GuessInput from './components/GuessInput';
 import GuessList from './components/GuessList';
 import Legend from './components/Legend';
 import { closenessColor, FOUND_COLOR } from './lib/closeness';
 import { getCountry, type Lang } from './lib/countries';
 import { puzzleNumber } from './lib/daily';
-import { closestGuess, giveUp, makeGuess, newFreeGame, shareText, type GameState, type Mode } from './lib/game';
+import {
+  closestGuess,
+  giveUp,
+  makeGuess,
+  newFreeGame,
+  newSharedGame,
+  shareText,
+  type GameState,
+  type Mode,
+} from './lib/game';
+import { decodeShareCode, normalizeShareCode } from './lib/shareCode';
 import {
   loadDaily,
   loadFree,
@@ -26,6 +37,15 @@ const GlobeView = lazy(() => import('./components/GlobeView'));
 
 const isTouch = () => window.matchMedia?.('(hover: none)').matches ?? false;
 
+/** A friend's game from the page URL (?game=XXXX-XXXX): its country, or 'invalid'. */
+function readSharedLink(): { target: string; code: string } | 'invalid' | null {
+  const raw = new URLSearchParams(location.search).get('game');
+  if (raw === null) return null;
+  const target = decodeShareCode(raw);
+  const code = normalizeShareCode(raw);
+  return target && code ? { target, code } : 'invalid';
+}
+
 function msUntilMidnight(now: Date): number {
   const next = new Date(now);
   next.setHours(24, 0, 0, 0);
@@ -33,11 +53,19 @@ function msUntilMidnight(now: Date): number {
 }
 
 export default function App() {
+  const [link] = useState(readSharedLink);
   const [lang, setLang] = useState<Lang>(() => loadLang() ?? defaultLang());
-  const [mode, setMode] = useState<Mode>(loadMode);
+  const [mode, setMode] = useState<Mode>(() => (link ? 'free' : loadMode()));
   const [now, setNow] = useState(() => new Date());
   const [daily, setDaily] = useState<GameState>(() => loadDaily(puzzleNumber()));
-  const [free, setFree] = useState<GameState>(() => loadFree() ?? newFreeGame());
+  const [free, setFree] = useState<GameState>(() => {
+    const stored = loadFree();
+    if (link && link !== 'invalid') {
+      // Reopening the same link keeps the progress made on it.
+      return stored?.sharedCode === link.code ? stored : newSharedGame(link.target, link.code);
+    }
+    return stored ?? newFreeGame();
+  });
   const [stats, setStats] = useState(loadStats);
   const [selected, setSelected] = useState<string | null>(null);
   const [revealed, setRevealed] = useState<string | null>(null);
@@ -45,6 +73,8 @@ export default function App() {
   const [confirmingGiveUp, setConfirmingGiveUp] = useState(false);
   const [copied, setCopied] = useState(false);
   const [globeGuess, setGlobeGuess] = useState(loadGlobeGuess);
+  const [friendsOpen, setFriendsOpen] = useState(link === 'invalid');
+  const [badLink, setBadLink] = useState(link === 'invalid');
   // Read by globe clicks: a fast double-click must see the first click's selection.
   const selectedRef = useRef<string | null>(null);
 
@@ -60,6 +90,13 @@ export default function App() {
     document.title = s.title;
   }, [lang, s.title]);
   useEffect(() => saveMode(mode), [mode]);
+  // The game is saved locally: drop the code from the address bar once it's applied.
+  useEffect(() => {
+    if (!link) return;
+    const url = new URL(location.href);
+    url.searchParams.delete('game');
+    history.replaceState(history.state, '', url);
+  }, [link]);
   useEffect(() => saveGlobeGuess(globeGuess), [globeGuess]);
   useEffect(() => {
     selectedRef.current = selected;
@@ -139,8 +176,25 @@ export default function App() {
     setFocus({ code });
   }, []);
 
+  const joinShared = useCallback((target: string, code: string) => {
+    setFree((current) => (current.sharedCode === code ? current : newSharedGame(target, code)));
+    setMode('free');
+    setFriendsOpen(false);
+    setBadLink(false);
+    setSelected(null);
+    setRevealed(null);
+    setConfirmingGiveUp(false);
+  }, []);
+
+  function toggleFriends() {
+    setFriendsOpen((open) => !open);
+    setBadLink(false);
+  }
+
   function switchMode(next: Mode) {
     setMode(next);
+    setFriendsOpen(false);
+    setBadLink(false);
     setSelected(null);
     setRevealed(null);
     setConfirmingGiveUp(false);
@@ -207,19 +261,36 @@ export default function App() {
         <button type="button" aria-pressed={mode === 'free'} onClick={() => switchMode('free')}>
           {s.free}
         </button>
+        {mode === 'free' && (
+          <button type="button" className="friends-toggle" aria-expanded={friendsOpen} onClick={toggleFriends}>
+            {s.friends}
+          </button>
+        )}
       </nav>
 
       <section className="play">
+        {mode === 'free' && friendsOpen && (
+          <FriendsPanel
+            key={free.target}
+            lang={lang}
+            touch={isTouch()}
+            target={free.target}
+            onJoin={joinShared}
+            badLink={badLink}
+          />
+        )}
         {!finished ? (
           <>
             <GuessInput lang={lang} guessed={guessed} onGuess={onGuess} />
             <div className="play-meta">
               <span aria-live="polite">
-                {closest && (
+                {closest ? (
                   <>
                     {s.closest}
                     <strong>{getCountry(closest.code).name[lang]}</strong>, {formatKm(lang, closest.km)}
                   </>
+                ) : (
+                  game.sharedCode && s.sharedIntro(game.sharedCode)
                 )}
               </span>
               {confirmingGiveUp ? (

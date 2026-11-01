@@ -5,7 +5,7 @@ A geography guessing game on a 3D globe. Guess a country: the game tells you how
 **Play:** https://strapontin.github.io/find-the-country/
 
 - **Daily puzzle:** the same country for everyone each day, with a shareable result and a streak.
-- **Free play:** a new random country each game.
+- **Free play:** a new random country each game. **With friends** gives you a link (and an 8-character code) that starts the same mystery country for a friend. Each share makes a new code, so two links for the same country look unrelated. The code hides the country from someone reading the link; it is not encryption, since the site has no server and the decoder runs in the browser.
 - **French and English**, for the interface and the country names. Search ignores accents and accepts common alternatives ("UK", "RDC", "Holland"…).
 - **Globe:** tap a country to highlight it, tap it again to see its name. Tick "Guess a country by double-clicking it on the globe" (off by default) to guess straight from the globe instead.
 
