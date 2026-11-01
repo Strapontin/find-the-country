@@ -30,8 +30,12 @@ const en = {
   nextDaily: (h: number, m: number) => `Next daily country in ${h} h ${String(m).padStart(2, '0')} min`,
   streak: (n: number) => `Streak: ${n}`,
   tapAgain: (touch: boolean) => (touch ? 'Tap again to see its name' : 'Click again to see its name'),
+  tapToGuess: (touch: boolean) => (touch ? 'Tap again to guess it' : 'Click again to guess it'),
+  globeGuess: (touch: boolean) =>
+    touch ? 'Guess a country by tapping it twice' : 'Guess a country by double-clicking it on the globe',
   alreadyGuessed: (km: string) => `Already guessed: ${km}`,
-  globeLabel: 'Globe. Tap a country to highlight it, tap again to see its name.',
+  globeLabel: (guess: boolean) =>
+    `Globe. Tap a country to highlight it, tap again to ${guess ? 'guess it' : 'see its name'}.`,
   km: (n: string) => `${n} km`,
   latest: 'Latest',
   loading: 'Loading the globe…',
@@ -68,8 +72,12 @@ const fr: Strings = {
   nextDaily: (h: number, m: number) => `Prochain pays du jour dans ${h}${NB}h ${String(m).padStart(2, '0')}${NB}min`,
   streak: (n: number) => `Série${NB}: ${n}`,
   tapAgain: (touch: boolean) => (touch ? 'Touche encore pour voir son nom' : 'Clique encore pour voir son nom'),
+  tapToGuess: (touch: boolean) => (touch ? 'Touche encore pour le proposer' : 'Clique encore pour le proposer'),
+  globeGuess: (touch: boolean) =>
+    touch ? 'Proposer un pays en le touchant deux fois' : 'Proposer un pays en double-cliquant sur le globe',
   alreadyGuessed: (km: string) => `Déjà proposé${NB}: ${km}`,
-  globeLabel: 'Globe. Touche un pays pour le mettre en évidence, touche-le encore pour voir son nom.',
+  globeLabel: (guess: boolean) =>
+    `Globe. Touche un pays pour le mettre en évidence, touche-le encore pour ${guess ? 'le proposer' : 'voir son nom'}.`,
   km: (n: string) => `${n}${NB}km`,
   latest: 'Dernier',
   loading: 'Chargement du globe…',

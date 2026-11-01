@@ -3,7 +3,7 @@ import { COUNTRIES } from './countries';
 import { dailyCountry, puzzleNumber } from './daily';
 import { closestGuess, giveUp, makeGuess, newDailyGame, replay, shareText, type GameState } from './game';
 import { searchCountries } from './search';
-import { closeness, closenessColor, FOUND_COLOR } from './closeness';
+import { closeness, closenessColor, FOUND_COLOR, shareSquare } from './closeness';
 
 const game = (target: string): GameState => ({ mode: 'free', target, guesses: [], status: 'playing' });
 
@@ -118,6 +118,38 @@ describe('closeness colours', () => {
 
   it('uses green for the target', () => {
     expect(closenessColor(0)).toBe(FOUND_COLOR);
-    expect(closenessColor(400)).toMatch(/^rgb\(/);
+    expect(hue(FOUND_COLOR)).toBeGreaterThan(100);
+  });
+
+  // Hue in degrees: red ≈ 0–15, orange ≈ 20–40, yellow ≈ 45–60.
+  it('is red when very far, orange when far, yellow when close', () => {
+    expect(hue(closenessColor(15_000))).toBeLessThan(15);
+    expect(hue(closenessColor(6_000))).toBeLessThan(15);
+    expect(hue(closenessColor(2_500))).toBeGreaterThan(20);
+    expect(hue(closenessColor(2_500))).toBeLessThan(40);
+    expect(hue(closenessColor(300))).toBeGreaterThan(45);
+    expect(hue(closenessColor(300))).toBeLessThan(60);
+  });
+
+  it('warms up steadily as guesses get closer', () => {
+    const kms = [20_000, 10_000, 5_000, 3_000, 2_000, 1_000, 500, 200, 100];
+    const hues = kms.map((km) => hue(closenessColor(km)));
+    hues.slice(1).forEach((h, i) => expect(h).toBeGreaterThanOrEqual(hues[i]));
+  });
+
+  it('matches the share squares to the colours', () => {
+    expect([0, 300, 1200, 2500, 6000, 12000].map(shareSquare).join('')).toBe('🟩🟨🟨🟧🟥🟥');
   });
 });
+
+/** Hue (0–360°) of "rgb(r, g, b)" or "#rrggbb". */
+function hue(color: string): number {
+  const [r, g, b] = color.startsWith('#')
+    ? [1, 3, 5].map((i) => parseInt(color.slice(i, i + 2), 16) / 255)
+    : color.match(/\d+/g)!.map((v) => Number(v) / 255);
+  const max = Math.max(r, g, b);
+  const d = max - Math.min(r, g, b);
+  if (d === 0) return 0;
+  const h = max === r ? ((g - b) / d) % 6 : max === g ? (b - r) / d + 2 : (r - g) / d + 4;
+  return (h * 60 + 360) % 360;
+}

@@ -2,7 +2,7 @@ import { closeness, closenessColor } from '../lib/closeness';
 import type { Lang } from '../lib/countries';
 import { formatKm, t } from '../i18n';
 
-const GRADIENT_KM = [15000, 8000, 4000, 2000, 1000, 500, 250, 150];
+const GRADIENT_KM = [15000, 10000, 7000, 5000, 3500, 2500, 1700, 1000, 600, 350, 150];
 const TICKS_KM = [5000, 1000, 250];
 
 export default function Legend({ lang }: { lang: Lang }) {

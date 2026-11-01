@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useEffect, useMemo, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import GuessInput from './components/GuessInput';
 import GuessList from './components/GuessList';
 import Legend from './components/Legend';
@@ -9,11 +9,13 @@ import { closestGuess, giveUp, makeGuess, newFreeGame, shareText, type GameState
 import {
   loadDaily,
   loadFree,
+  loadGlobeGuess,
   loadLang,
   loadMode,
   loadStats,
   recordDaily,
   saveGame,
+  saveGlobeGuess,
   saveLang,
   saveMode,
 } from './lib/storage';
@@ -42,6 +44,9 @@ export default function App() {
   const [focus, setFocus] = useState<{ code: string; zoom?: boolean } | null>(null);
   const [confirmingGiveUp, setConfirmingGiveUp] = useState(false);
   const [copied, setCopied] = useState(false);
+  const [globeGuess, setGlobeGuess] = useState(loadGlobeGuess);
+  // Read by globe clicks: a fast double-click must see the first click's selection.
+  const selectedRef = useRef<string | null>(null);
 
   const s = t(lang);
   const game = mode === 'daily' ? daily : free;
@@ -55,6 +60,10 @@ export default function App() {
     document.title = s.title;
   }, [lang, s.title]);
   useEffect(() => saveMode(mode), [mode]);
+  useEffect(() => saveGlobeGuess(globeGuess), [globeGuess]);
+  useEffect(() => {
+    selectedRef.current = selected;
+  }, [selected]);
   useEffect(() => saveGame(daily), [daily]);
   useEffect(() => saveGame(free), [free]);
   useEffect(() => {
@@ -98,6 +107,7 @@ export default function App() {
   const onGuess = useCallback(
     (code: string) => {
       setGame((g) => makeGuess(g, code));
+      selectedRef.current = null;
       setSelected(null);
       setRevealed(null);
       setFocus({ code });
@@ -105,15 +115,22 @@ export default function App() {
     [setGame],
   );
 
+  // First click highlights a country. Clicking it again shows its name or,
+  // with the "double-click to guess" box ticked, guesses it.
   const onSelect = useCallback(
     (code: string | null) => {
-      if (code && code === selected) setRevealed(code);
-      else {
+      const again = code !== null && code === selectedRef.current;
+      if (again && globeGuess && !finished && !guessed.has(code)) {
+        onGuess(code);
+      } else if (again) {
+        setRevealed(code);
+      } else {
+        selectedRef.current = code;
         setSelected(code);
         setRevealed(null);
       }
     },
-    [selected],
+    [globeGuess, finished, guessed, onGuess],
   );
 
   const onPickStrip = useCallback((code: string) => {
@@ -166,7 +183,8 @@ export default function App() {
     const g = game.guesses.find((x) => x.code === revealed);
     hint = g && g.km > 0 ? `${name}, ${formatKm(lang, g.km)}` : name;
   } else if (selected) {
-    hint = selectedGuess ? s.alreadyGuessed(formatKm(lang, selectedGuess.km)) : s.tapAgain(isTouch());
+    if (selectedGuess) hint = s.alreadyGuessed(formatKm(lang, selectedGuess.km));
+    else hint = globeGuess && !finished ? s.tapToGuess(isTouch()) : s.tapAgain(isTouch());
   }
 
   return (
@@ -220,6 +238,10 @@ export default function App() {
                 </button>
               )}
             </div>
+            <label className="toggle">
+              <input type="checkbox" checked={globeGuess} onChange={(e) => setGlobeGuess(e.target.checked)} />
+              {s.globeGuess(isTouch())}
+            </label>
           </>
         ) : (
           <div className={`result ${game.status === 'won' ? 'is-won' : 'is-lost'}`} aria-live="polite">
@@ -261,7 +283,7 @@ export default function App() {
             revealed={revealed}
             onSelect={onSelect}
             focus={focus}
-            label={s.globeLabel}
+            label={s.globeLabel(globeGuess && !finished)}
           />
         </Suspense>
         {hint && (
