@@ -27,6 +27,7 @@ const KEYS = {
   daily: 'ftc.daily',
   free: 'ftc.free',
   stats: 'ftc.stats',
+  globeGuess: 'ftc.globeGuess',
 };
 
 interface StoredGame {
@@ -53,6 +54,10 @@ export function loadMode(): Mode {
   return read<Mode>(KEYS.mode) === 'free' ? 'free' : 'daily';
 }
 export const saveMode = (mode: Mode) => write(KEYS.mode, mode);
+
+/** "Double-click a country to guess it" setting. Off unless the player turned it on. */
+export const loadGlobeGuess = (): boolean => read<boolean>(KEYS.globeGuess) === true;
+export const saveGlobeGuess = (on: boolean) => write(KEYS.globeGuess, on);
 
 /** Today's daily game, restored if the player already started it. */
 export function loadDaily(puzzle: number): GameState {

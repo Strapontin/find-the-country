@@ -1,13 +1,13 @@
 # Find the Country
 
-A geography guessing game on a 3D globe. Guess a country: the game tells you how far its capital is from the mystery country's capital, as the crow flies, and colours it from pale sand (far) to deep red (close).
+A geography guessing game on a 3D globe. Guess a country: the game tells you how far its capital is from the mystery country's capital, as the crow flies, and colours it: red when very far, orange when far, yellow when close, green for the answer.
 
 **Play:** https://strapontin.github.io/find-the-country/
 
 - **Daily puzzle:** the same country for everyone each day, with a shareable result and a streak.
 - **Free play:** a new random country each game.
 - **French and English**, for the interface and the country names. Search ignores accents and accepts common alternatives ("UK", "RDC", "Holland"…).
-- **Globe:** tap a country to highlight it, tap it again to see its name. Guesses are made in the text field only.
+- **Globe:** tap a country to highlight it, tap it again to see its name. Tick "Guess a country by double-clicking it on the globe" (off by default) to guess straight from the globe instead.
 
 197 countries are playable: the 193 UN members plus Vatican City, Palestine, Kosovo and Taiwan.
 

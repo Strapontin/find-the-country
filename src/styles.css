@@ -266,6 +266,28 @@ button {
   font-weight: 700;
 }
 
+/* Opt-in: double-click a country on the globe to guess it */
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: fit-content;
+  min-height: 32px;
+  margin-top: 2px;
+  font-size: var(--step--1);
+  color: var(--ink-2);
+  cursor: pointer;
+}
+
+.toggle input {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  flex: none;
+  accent-color: var(--ink);
+  cursor: pointer;
+}
+
 .confirm {
   display: inline-flex;
   gap: 12px;
